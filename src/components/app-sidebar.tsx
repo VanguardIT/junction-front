@@ -22,6 +22,7 @@ import {
   SidebarMenuButton,
   SidebarMenuItem,
 } from "@/components/ui/shadcn/sidebar";
+import AppLocaleSwitcher from "./LanguageSwitcher";
 
 // Sample data for navigation items
 const navItems = [
@@ -66,7 +67,7 @@ const navItems = [
 const userData = {
   name: "John Doe",
   email: "john@example.com",
-  avatar: "/avatars/john.jpg",
+  avatar: "",
 };
 
 export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
@@ -75,6 +76,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
   return (
     <Sidebar collapsible="icon" className="overflow-hidden" {...props}>
       <SidebarHeader>
+        <AppLocaleSwitcher />
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton size="lg" asChild className="md:h-8 md:p-0">
@@ -83,7 +85,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                   <Home className="size-4" />
                 </div>
                 <div className="grid flex-1 text-left text-sm leading-tight">
-                  <span className="truncate font-medium">My App</span>
+                  <span className="truncate font-medium">FishTer</span>
                   <span className="truncate text-xs">Dashboard</span>
                 </div>
               </a>
