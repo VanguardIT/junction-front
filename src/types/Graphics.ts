@@ -1,9 +1,15 @@
 export type ChartRange = "week" | "month";
 
 export interface ChartComponentProps {
-  weekData?: Array<{ day: string; value: number }>;
-  monthData?: Array<{ month: string; value: number }>;
+  data?: Array<{ date: string; value: number }>;
+  areaColor?: string;
+}
+
+export interface DasboardOverviewChartData {
   title: string;
   description?: string;
-  areaColor?: string;
+  data?: {
+    week?: Array<{ date: string; value: number }>;
+    month?: Array<{ date: string; value: number }>;
+  };
 }
