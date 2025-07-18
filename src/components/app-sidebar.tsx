@@ -23,9 +23,46 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/shadcn/sidebar";
 import AppLocaleSwitcher from "./LanguageSwitcher";
-import Image from "next/image";
-import Link from "next/link";
-import { navItems } from "@/data/routes";
+
+// Sample data for navigation items
+const navItems = [
+  {
+    title: "Dashboard",
+    url: "/dashboard",
+    icon: Home,
+    isActive: true,
+  },
+  {
+    title: "Analytics",
+    url: "/dashboard/analytics",
+    icon: BarChart3,
+    isActive: false,
+  },
+  {
+    title: "Users",
+    url: "/dashboard/users",
+    icon: Users,
+    isActive: false,
+  },
+  {
+    title: "Calendar",
+    url: "/dashboard/calendar",
+    icon: Calendar,
+    isActive: false,
+  },
+  {
+    title: "Documents",
+    url: "/dashboard/documents",
+    icon: FileText,
+    isActive: false,
+  },
+  {
+    title: "Settings",
+    url: "/dashboard/settings",
+    icon: Settings,
+    isActive: false,
+  },
+];
 
 const userData = {
   name: "John Doe",
@@ -43,17 +80,15 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton size="lg" asChild className="md:h-8 md:p-0">
-              <Link href="/dashboard">
-                <Image
-                  src="/imgs/logo.png"
-                  alt="FishTer"
-                  width={52}
-                  height={52}
-                />
-                <div className="grid flex-1 text-left text-sm leading-tight">
-                  <span className="truncate font-bold text-xl">FishTer</span>
+              <a href="/dashboard">
+                <div className="bg-sidebar-primary text-sidebar-primary-foreground flex aspect-square size-8 items-center justify-center rounded-lg">
+                  <Home className="size-4" />
                 </div>
-              </Link>
+                <div className="grid flex-1 text-left text-sm leading-tight">
+                  <span className="truncate font-medium">FishTer</span>
+                  <span className="truncate text-xs">Dashboard</span>
+                </div>
+              </a>
             </SidebarMenuButton>
           </SidebarMenuItem>
         </SidebarMenu>
@@ -74,7 +109,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                     className="px-2.5 md:px-2"
                   >
                     <item.icon />
-                    <Link href={item.url}>{item.title}</Link>
+                    <span>{item.title}</span>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}
