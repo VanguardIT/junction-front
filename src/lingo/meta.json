@@ -1,0 +1,593 @@
+{
+  "version": 0.1,
+  "files": {
+    "../app/layout.tsx": {
+      "scopes": {
+        "7/declaration/body/0/argument/1/1/1/openingElement/0/value/expression": {
+          "type": "element",
+          "hash": "82b4ea7ed1439094d7c4be13aaba9a66",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Loading..."
+        },
+        "7/declaration/body/0/argument/1/1/openingElement/0/value/expression": {
+          "type": "element",
+          "hash": "82b4ea7ed1439094d7c4be13aaba9a66",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Loading..."
+        },
+        "8/declaration/body/0/argument/1/1/openingElement/0/value/expression": {
+          "type": "element",
+          "hash": "82b4ea7ed1439094d7c4be13aaba9a66",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Loading..."
+        }
+      }
+    },
+    "../app/page.tsx": {
+      "scopes": {
+        "1/declaration/body/0/argument/1/1-alt": {
+          "type": "attribute",
+          "hash": "d466a5d83229413a6a5a6733490b8e92",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Next.js logo"
+        },
+        "1/declaration/body/0/argument/1/3/1": {
+          "type": "element",
+          "hash": "4b6f703a91c1da3ea27d7cd4f81eed00",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Get started by editing <element:code>app/page.tsx</element:code> ."
+        },
+        "1/declaration/body/0/argument/1/3/3": {
+          "type": "element",
+          "hash": "4f2bd22c0a2ce4d85d3cf3c758371d07",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Save and see your changes instantly."
+        },
+        "1/declaration/body/0/argument/1/5/1": {
+          "type": "element",
+          "hash": "1e7142eabfb50a998a0625bc66592354",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Image></element:Image> Deploy now"
+        },
+        "1/declaration/body/0/argument/1/5/1/1-alt": {
+          "type": "attribute",
+          "hash": "f9c3b0f527a8caeed7a3a1ac7f4a3ab5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Vercel logomark"
+        },
+        "1/declaration/body/0/argument/1/5/3": {
+          "type": "element",
+          "hash": "c788845ca96b9a02da85f5ba5cc2ec1b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Read our docs"
+        },
+        "1/declaration/body/0/argument/3/1": {
+          "type": "element",
+          "hash": "311d29f18ede3976330e70a65c7f9174",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Image></element:Image> Learn"
+        },
+        "1/declaration/body/0/argument/3/1/1-alt": {
+          "type": "attribute",
+          "hash": "c9fdbf0f3d05590518cd8cfe360a1435",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "File icon"
+        },
+        "1/declaration/body/0/argument/3/3": {
+          "type": "element",
+          "hash": "d69424beb631df7de9f7f6b7619d553f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Image></element:Image> Examples"
+        },
+        "1/declaration/body/0/argument/3/3/1-alt": {
+          "type": "attribute",
+          "hash": "30a1005a1635872a103f100d02d7c9b2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Window icon"
+        },
+        "1/declaration/body/0/argument/3/5": {
+          "type": "element",
+          "hash": "50b10af3ab7eeef1912183a228dd59bf",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Image></element:Image> Go to nextjs.org →"
+        },
+        "1/declaration/body/0/argument/3/5/1-alt": {
+          "type": "attribute",
+          "hash": "4467320f63442e7e0729ad6d55b4a8b1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Globe icon"
+        }
+      }
+    },
+    "../components/LanguageSwitcher.tsx": {
+      "scopes": {
+        "1/declaration/body/0/argument/3": {
+          "type": "element",
+          "hash": "4d4c7a4e3e366b756fc75d9067cb9f5e",
+          "context": "",
+          "skip": true,
+          "overrides": {},
+          "content": "Lingo.dev Compiler"
+        }
+      }
+    },
+    "app/dashboard/page.tsx": {
+      "scopes": {
+        "4/declaration/body/0/argument/1/5/1/1/1": {
+          "type": "element",
+          "hash": "c9380ea68c8c76ea451bd9613329a07c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Dashboard"
+        },
+        "4/declaration/body/0/argument/1/5/1/5/1": {
+          "type": "element",
+          "hash": "30c54e4dc4ce599b87d94be34a8617f5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Overview"
+        },
+        "4/declaration/body/0/argument/3/1/1/1/3": {
+          "type": "element",
+          "hash": "6909485d66e5e6a9e9b8391996f3cf41",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Total Users"
+        },
+        "4/declaration/body/0/argument/3/1/1/3": {
+          "type": "element",
+          "hash": "7c208818dde8b59b40985edf13909d47",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "1,234"
+        },
+        "4/declaration/body/0/argument/3/1/1/5": {
+          "type": "element",
+          "hash": "47babf4beec6eb56c23da3b897b483d3",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+12% from last month"
+        },
+        "4/declaration/body/0/argument/3/1/3/1/3": {
+          "type": "element",
+          "hash": "ff03ab827646d3027cc63ed72943c03d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Revenue"
+        },
+        "4/declaration/body/0/argument/3/1/3/3": {
+          "type": "element",
+          "hash": "52019eb21a12200fd8bb17c98afad03a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "$45,231"
+        },
+        "4/declaration/body/0/argument/3/1/3/5": {
+          "type": "element",
+          "hash": "3742f4d262651854ddb9670f7e9ad5a5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+20% from last month"
+        },
+        "4/declaration/body/0/argument/3/1/5/1/3": {
+          "type": "element",
+          "hash": "18a974eaa9cde83bd3d7ceefa97f77a9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Active Projects"
+        },
+        "4/declaration/body/0/argument/3/1/5/3": {
+          "type": "element",
+          "hash": "d877598cb4fab5944dfbc84151a0f231",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "12"
+        },
+        "4/declaration/body/0/argument/3/1/5/5": {
+          "type": "element",
+          "hash": "5b6c6422b94af079cda8eeaa879a5404",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+2 from last week"
+        },
+        "4/declaration/body/0/argument/3/1/7/1/3": {
+          "type": "element",
+          "hash": "76753350bf56e4ccc0fdce98a5180aac",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Pending Tasks"
+        },
+        "4/declaration/body/0/argument/3/1/7/3": {
+          "type": "element",
+          "hash": "372189913e3e6760a9878b439c9bb00b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "89"
+        },
+        "4/declaration/body/0/argument/3/1/7/5": {
+          "type": "element",
+          "hash": "66f15b58b0b06211fe5c8a0c775d95af",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "-5 from yesterday"
+        },
+        "4/declaration/body/0/argument/3/3/1/1": {
+          "type": "element",
+          "hash": "d4b07b3b4faedbd20762ab8a665d979d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Recent Activity"
+        },
+        "4/declaration/body/0/argument/3/3/1/3/1/expression/0/body/3/1": {
+          "type": "element",
+          "hash": "200f10ef5438b68db1bd8f19ae02c52c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Activity <expression/>"
+        },
+        "4/declaration/body/0/argument/3/3/1/3/1/expression/0/body/3/3": {
+          "type": "element",
+          "hash": "fef3c16bf22069cf71e5d6c488ad1176",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "This is a sample activity description"
+        },
+        "4/declaration/body/0/argument/3/3/1/3/1/expression/0/body/5": {
+          "type": "element",
+          "hash": "8d2a48104c2ba1c76404b25577537979",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<expression/>h ago"
+        },
+        "4/declaration/body/0/argument/3/3/3/1": {
+          "type": "element",
+          "hash": "157a51ac3ffbc527a52379a547499fe2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Quick Actions"
+        },
+        "4/declaration/body/0/argument/3/3/3/3/1": {
+          "type": "element",
+          "hash": "f136c35271fa0120915e190d603aa09e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Create New Project"
+        },
+        "4/declaration/body/0/argument/3/3/3/3/3": {
+          "type": "element",
+          "hash": "91a42c9988b10283769dbd5918301d18",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Add User"
+        },
+        "4/declaration/body/0/argument/3/3/3/3/5": {
+          "type": "element",
+          "hash": "578ce3bab3ac32290d0be986958d1816",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Generate Report"
+        }
+      }
+    },
+    "app/page.tsx": {
+      "scopes": {
+        "1/declaration/body/0/argument/1/1-alt": {
+          "type": "attribute",
+          "hash": "d466a5d83229413a6a5a6733490b8e92",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Next.js logo"
+        },
+        "1/declaration/body/0/argument/1/3/1": {
+          "type": "element",
+          "hash": "4b6f703a91c1da3ea27d7cd4f81eed00",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Get started by editing <element:code>app/page.tsx</element:code> ."
+        },
+        "1/declaration/body/0/argument/1/3/3": {
+          "type": "element",
+          "hash": "4f2bd22c0a2ce4d85d3cf3c758371d07",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Save and see your changes instantly."
+        },
+        "1/declaration/body/0/argument/1/5/1": {
+          "type": "element",
+          "hash": "1e7142eabfb50a998a0625bc66592354",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Image></element:Image> Deploy now"
+        },
+        "1/declaration/body/0/argument/1/5/1/1-alt": {
+          "type": "attribute",
+          "hash": "f9c3b0f527a8caeed7a3a1ac7f4a3ab5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Vercel logomark"
+        },
+        "1/declaration/body/0/argument/1/5/3": {
+          "type": "element",
+          "hash": "c788845ca96b9a02da85f5ba5cc2ec1b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Read our docs"
+        },
+        "1/declaration/body/0/argument/3/1": {
+          "type": "element",
+          "hash": "311d29f18ede3976330e70a65c7f9174",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Image></element:Image> Learn"
+        },
+        "1/declaration/body/0/argument/3/1/1-alt": {
+          "type": "attribute",
+          "hash": "c9fdbf0f3d05590518cd8cfe360a1435",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "File icon"
+        },
+        "1/declaration/body/0/argument/3/3": {
+          "type": "element",
+          "hash": "d69424beb631df7de9f7f6b7619d553f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Image></element:Image> Examples"
+        },
+        "1/declaration/body/0/argument/3/3/1-alt": {
+          "type": "attribute",
+          "hash": "30a1005a1635872a103f100d02d7c9b2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Window icon"
+        },
+        "1/declaration/body/0/argument/3/5": {
+          "type": "element",
+          "hash": "50b10af3ab7eeef1912183a228dd59bf",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Image></element:Image> Go to nextjs.org →"
+        },
+        "1/declaration/body/0/argument/3/5/1-alt": {
+          "type": "attribute",
+          "hash": "4467320f63442e7e0729ad6d55b4a8b1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Globe icon"
+        }
+      }
+    },
+    "components/LanguageSwitcher.tsx": {
+      "scopes": {
+        "1/declaration/body/0/argument/3": {
+          "type": "element",
+          "hash": "4d4c7a4e3e366b756fc75d9067cb9f5e",
+          "context": "",
+          "skip": true,
+          "overrides": {},
+          "content": "Lingo.dev Compiler"
+        }
+      }
+    },
+    "components/app-sidebar.tsx": {
+      "scopes": {
+        "6/declaration/body/1/argument/1/1/1/1/1/3/1": {
+          "type": "element",
+          "hash": "972598469bf28a28203b84af0ea8e309",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "My App"
+        },
+        "6/declaration/body/1/argument/1/1/1/1/1/3/3": {
+          "type": "element",
+          "hash": "c9380ea68c8c76ea451bd9613329a07c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Dashboard"
+        },
+        "7/declaration/body/1/argument/1/3/1/1/1/3/1": {
+          "type": "element",
+          "hash": "4a9f64ed533192da0573a807e0a00414",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "FishTer"
+        },
+        "7/declaration/body/1/argument/1/3/1/1/1/3/3": {
+          "type": "element",
+          "hash": "c9380ea68c8c76ea451bd9613329a07c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Dashboard"
+        }
+      }
+    },
+    "components/nav-user.tsx": {
+      "scopes": {
+        "4/declaration/body/1/argument/1/1/1/1/1/3": {
+          "type": "element",
+          "hash": "5796507f657484613eca22e099326c84",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "CN"
+        },
+        "4/declaration/body/1/argument/1/1/3/1/1/1/3": {
+          "type": "element",
+          "hash": "5796507f657484613eca22e099326c84",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "CN"
+        },
+        "4/declaration/body/1/argument/1/1/3/5/1": {
+          "type": "element",
+          "hash": "659a069cebe95f1dfbab0723a1cac64b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:BadgeCheck></element:BadgeCheck> Account"
+        },
+        "4/declaration/body/1/argument/1/1/3/5/3": {
+          "type": "element",
+          "hash": "b7cd3fd88b25e32d5036805eb352bfb0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Bell></element:Bell> Notifications"
+        },
+        "4/declaration/body/1/argument/1/1/3/9": {
+          "type": "element",
+          "hash": "590887de65485d5e66ae9b1838aa495d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:LogOut></element:LogOut> Log out"
+        }
+      }
+    },
+    "components/ui/shadcn/breadcrumb.tsx": {
+      "scopes": {
+        "10/body/0/argument/3": {
+          "type": "element",
+          "hash": "ee5e035ee328a8947be2ea44e338a57d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "More"
+        },
+        "4/body/0/argument-aria-label": {
+          "type": "attribute",
+          "hash": "6ff91b79dc0ab911eabd5433c4702fea",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "breadcrumb"
+        }
+      }
+    },
+    "components/ui/shadcn/sheet.tsx": {
+      "scopes": {
+        "9/body/0/argument/3/3/3": {
+          "type": "element",
+          "hash": "2c2e22f8424a1031de89063bd0022e16",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Close"
+        }
+      }
+    },
+    "components/ui/shadcn/sidebar.tsx": {
+      "scopes": {
+        "22/body/2/consequent/0/argument/1/1/1": {
+          "type": "element",
+          "hash": "85fcd93a6f051c26d057e4b30d392317",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Sidebar"
+        },
+        "22/body/2/consequent/0/argument/1/1/3": {
+          "type": "element",
+          "hash": "51aa5f202c817560f38d3527a9a1366d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Displays the mobile sidebar."
+        },
+        "23/body/1/argument/3": {
+          "type": "element",
+          "hash": "0ef91fcb33b04612eb8a202f673d7881",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Toggle Sidebar"
+        },
+        "24/body/1/argument-aria-label": {
+          "type": "attribute",
+          "hash": "0ef91fcb33b04612eb8a202f673d7881",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Toggle Sidebar"
+        },
+        "24/body/1/argument-title": {
+          "type": "attribute",
+          "hash": "0ef91fcb33b04612eb8a202f673d7881",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Toggle Sidebar"
+        }
+      }
+    }
+  }
+}
