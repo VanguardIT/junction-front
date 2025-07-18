@@ -1,6 +1,7 @@
 import AlertTable from "@/components/ui/alerts/AlertTable";
 import TaskAlert from "@/components/ui/alerts/TaskAlert";
 import ChartArea from "@/components/ui/charts/chart-area";
+import OverviewChart from "@/components/ui/charts/dashboard/OverviewChart";
 import { alerts, chartdata, tasks } from "@/data/overview";
 import { Metadata } from "next";
 
@@ -30,7 +31,7 @@ export default function Page() {
           </div>
           <div className="flex flex-col gap-2 w-full">
             <h2 className="text-h2 text-primary/80">Oxygen Dissolve</h2>
-            <ChartArea {...chartdata} areaColor="blue" />
+            <OverviewChart chartdata={chartdata} />
           </div>
         </div>
       </div>

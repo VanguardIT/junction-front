@@ -1,24 +1,26 @@
 import { Alert } from "@/types/Alert";
-import { ChartComponentProps } from "@/types/Graphics";
+import { DasboardOverviewChartData } from "@/types/Graphics";
 import { Task } from "@/types/Task";
 
-export const chartdata: ChartComponentProps = {
+export const chartdata: DasboardOverviewChartData = {
   title: "Oxygen Dissolve",
   description: "Oxygen dissolve in the pond",
-  weekData: [
-    { day: "Mon", value: 180 },
-    { day: "Tue", value: 210 },
-    { day: "Wed", value: 200 },
-    { day: "Thu", value: 220 },
-    { day: "Fri", value: 230 },
-    { day: "Sat", value: 250 },
-    { day: "Sun", value: 240 },
-  ],
-  monthData: [
-    { month: "January", value: 186 },
-    { month: "February", value: 305 },
-    { month: "March", value: 237 },
-  ],
+  data: {
+    week: [
+      { date: "Mon", value: 180 },
+      { date: "Tue", value: 210 },
+      { date: "Wed", value: 200 },
+      { date: "Thu", value: 220 },
+      { date: "Fri", value: 230 },
+      { date: "Sat", value: 250 },
+      { date: "Sun", value: 240 },
+    ],
+    month: [
+      { date: "January", value: 186 },
+      { date: "February", value: 305 },
+      { date: "March", value: 237 },
+    ],
+  },
 };
 
 export const alerts: Alert[] = [

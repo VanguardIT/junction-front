@@ -25,46 +25,7 @@ import {
 import AppLocaleSwitcher from "./LanguageSwitcher";
 import Image from "next/image";
 import Link from "next/link";
-
-// Sample data for navigation items
-const navItems = [
-  {
-    title: "Dashboard",
-    url: "/dashboard",
-    icon: Home,
-    isActive: true,
-  },
-  {
-    title: "Analytics",
-    url: "/dashboard/analytics",
-    icon: BarChart3,
-    isActive: false,
-  },
-  {
-    title: "Users",
-    url: "/dashboard/users",
-    icon: Users,
-    isActive: false,
-  },
-  {
-    title: "Calendar",
-    url: "/dashboard/calendar",
-    icon: Calendar,
-    isActive: false,
-  },
-  {
-    title: "Documents",
-    url: "/dashboard/documents",
-    icon: FileText,
-    isActive: false,
-  },
-  {
-    title: "Settings",
-    url: "/dashboard/settings",
-    icon: Settings,
-    isActive: false,
-  },
-];
+import { navItems } from "@/data/routes";
 
 const userData = {
   name: "John Doe",
