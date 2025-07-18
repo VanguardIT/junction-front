@@ -130,8 +130,556 @@ export default {
         },
       },
     },
+    "app/dashboard/layout.tsx": {
+      entries: {
+        "4/declaration/body/0/argument/3/1/5/1/1/1": {
+          content: {
+            ar: "لوحة التحكم",
+            en: "Dashboard",
+            fr: "Tableau de bord",
+          },
+          hash: "c9380ea68c8c76ea451bd9613329a07c",
+        },
+        "4/declaration/body/0/argument/3/1/5/1/5/1": {
+          content: {
+            ar: "نظرة عامة",
+            en: "Overview",
+            fr: "Aperçu",
+          },
+          hash: "30c54e4dc4ce599b87d94be34a8617f5",
+        },
+      },
+    },
     "app/dashboard/page.tsx": {
       entries: {
+        "1/declaration/body/0/argument/1/1/1/1": {
+          content: {
+            ar: "المناطق",
+            en: "Regions",
+            fr: "Régions",
+          },
+          hash: "e238a25e05709a58ebd38f70c08dd2b6",
+        },
+        "1/declaration/body/0/argument/1/1/1/1/3": {
+          content: {
+            ar: "إجمالي المستخدمين",
+            en: "Total Users",
+            fr: "Utilisateurs totaux",
+          },
+          hash: "6909485d66e5e6a9e9b8391996f3cf41",
+        },
+        "1/declaration/body/0/argument/1/1/1/3": {
+          content: {
+            ar: "+2",
+            en: "+2",
+            fr: "+2",
+          },
+          hash: "a96b61dcbff93972a3da74910715d042",
+        },
+        "1/declaration/body/0/argument/1/1/1/5": {
+          content: {
+            ar: "+12% مقارنة بالشهر الماضي",
+            en: "+12% from last month",
+            fr: "+12 % par rapport au mois dernier",
+          },
+          hash: "47babf4beec6eb56c23da3b897b483d3",
+        },
+        "1/declaration/body/0/argument/1/1/3/1": {
+          content: {
+            ar: "البرك",
+            en: "Ponds",
+            fr: "Bassins",
+          },
+          hash: "e2fc7ce389859028faabc845d3bc6980",
+        },
+        "1/declaration/body/0/argument/1/1/3/1/3": {
+          content: {
+            ar: "الإيرادات",
+            en: "Revenue",
+            fr: "Revenus",
+          },
+          hash: "ff03ab827646d3027cc63ed72943c03d",
+        },
+        "1/declaration/body/0/argument/1/1/3/3": {
+          content: {
+            ar: "+20",
+            en: "+20",
+            fr: "+20",
+          },
+          hash: "2ac29d1fbbf988ee4b44a40acf62324c",
+        },
+        "1/declaration/body/0/argument/1/1/3/5": {
+          content: {
+            ar: "+20% مقارنة بالشهر الماضي",
+            en: "+20% from last month",
+            fr: "+20 % par rapport au mois dernier",
+          },
+          hash: "3742f4d262651854ddb9670f7e9ad5a5",
+        },
+        "1/declaration/body/0/argument/1/1/5/1": {
+          content: {
+            ar: "أجهزة الاستشعار",
+            en: "Sensors",
+            fr: "Capteurs",
+          },
+          hash: "2ba1880d03b4543a84eb0b4a676af3e1",
+        },
+        "1/declaration/body/0/argument/1/1/5/1/3": {
+          content: {
+            ar: "المشاريع النشطة",
+            en: "Active Projects",
+            fr: "Projets actifs",
+          },
+          hash: "18a974eaa9cde83bd3d7ceefa97f77a9",
+        },
+        "1/declaration/body/0/argument/1/1/5/3": {
+          content: {
+            ar: "+100",
+            en: "+100",
+            fr: "+100",
+          },
+          hash: "0358f51fcdfda120f28443c7f273d929",
+        },
+        "1/declaration/body/0/argument/1/1/5/5": {
+          content: {
+            ar: "+2 مقارنة بالأسبوع الماضي",
+            en: "+2 from last week",
+            fr: "+2 par rapport à la semaine dernière",
+          },
+          hash: "5b6c6422b94af079cda8eeaa879a5404",
+        },
+        "1/declaration/body/0/argument/1/1/7/1/3": {
+          content: {
+            ar: "المهام المعلقة",
+            en: "Pending Tasks",
+            fr: "Tâches en attente",
+          },
+          hash: "76753350bf56e4ccc0fdce98a5180aac",
+        },
+        "1/declaration/body/0/argument/1/1/7/3": {
+          content: {
+            ar: "89",
+            en: "89",
+            fr: "89",
+          },
+          hash: "372189913e3e6760a9878b439c9bb00b",
+        },
+        "1/declaration/body/0/argument/1/1/7/5": {
+          content: {
+            ar: "-5 مقارنة بالأمس",
+            en: "-5 from yesterday",
+            fr: "-5 par rapport à hier",
+          },
+          hash: "66f15b58b0b06211fe5c8a0c775d95af",
+        },
+        "1/declaration/body/0/argument/1/3/1/1": {
+          content: {
+            ar: "النشاط الأخير",
+            en: "Recent Activity",
+            fr: "Activité récente",
+          },
+          hash: "d4b07b3b4faedbd20762ab8a665d979d",
+        },
+        "1/declaration/body/0/argument/1/3/1/3/1/expression/0/body/3/1": {
+          content: {
+            ar: "النشاط <expression/>",
+            en: "Activity <expression/>",
+            fr: "Activité <expression/>",
+          },
+          hash: "200f10ef5438b68db1bd8f19ae02c52c",
+        },
+        "1/declaration/body/0/argument/1/3/1/3/1/expression/0/body/3/3": {
+          content: {
+            ar: "هذا وصف نشاط توضيحي",
+            en: "This is a sample activity description",
+            fr: "Ceci est un exemple de description d'activité",
+          },
+          hash: "fef3c16bf22069cf71e5d6c488ad1176",
+        },
+        "1/declaration/body/0/argument/1/3/1/3/1/expression/0/body/5": {
+          content: {
+            ar: "منذ <expression/>ساعة",
+            en: "<expression/>h ago",
+            fr: "Il y a <expression/>h",
+          },
+          hash: "8d2a48104c2ba1c76404b25577537979",
+        },
+        "1/declaration/body/0/argument/1/3/3/1": {
+          content: {
+            ar: "إجراءات سريعة",
+            en: "Quick Actions",
+            fr: "Actions rapides",
+          },
+          hash: "157a51ac3ffbc527a52379a547499fe2",
+        },
+        "1/declaration/body/0/argument/1/3/3/3/1": {
+          content: {
+            ar: "إنشاء مشروع جديد",
+            en: "Create New Project",
+            fr: "Créer un nouveau projet",
+          },
+          hash: "f136c35271fa0120915e190d603aa09e",
+        },
+        "1/declaration/body/0/argument/1/3/3/3/3": {
+          content: {
+            ar: "إضافة مستخدم",
+            en: "Add User",
+            fr: "Ajouter un utilisateur",
+          },
+          hash: "91a42c9988b10283769dbd5918301d18",
+        },
+        "1/declaration/body/0/argument/1/3/3/3/5": {
+          content: {
+            ar: "إنشاء تقرير",
+            en: "Generate Report",
+            fr: "Générer un rapport",
+          },
+          hash: "578ce3bab3ac32290d0be986958d1816",
+        },
+        "3/declaration/body/0/argument/1/1/1/1": {
+          content: {
+            ar: "المناطق",
+            en: "Regions",
+            fr: "Régions",
+          },
+          hash: "e238a25e05709a58ebd38f70c08dd2b6",
+        },
+        "3/declaration/body/0/argument/1/1/1/1/1": {
+          content: {
+            ar: "المناطق",
+            en: "Regions",
+            fr: "Régions",
+          },
+          hash: "e238a25e05709a58ebd38f70c08dd2b6",
+        },
+        "3/declaration/body/0/argument/1/1/1/1/3": {
+          content: {
+            ar: "+2",
+            en: "+2",
+            fr: "+2",
+          },
+          hash: "a96b61dcbff93972a3da74910715d042",
+        },
+        "3/declaration/body/0/argument/1/1/1/3": {
+          content: {
+            ar: "+2",
+            en: "+2",
+            fr: "+2",
+          },
+          hash: "a96b61dcbff93972a3da74910715d042",
+        },
+        "3/declaration/body/0/argument/1/1/1/3/1": {
+          content: {
+            ar: "البرك",
+            en: "Ponds",
+            fr: "Bassins",
+          },
+          hash: "e2fc7ce389859028faabc845d3bc6980",
+        },
+        "3/declaration/body/0/argument/1/1/1/3/3": {
+          content: {
+            ar: "+20",
+            en: "+20",
+            fr: "+20",
+          },
+          hash: "2ac29d1fbbf988ee4b44a40acf62324c",
+        },
+        "3/declaration/body/0/argument/1/1/1/5/1": {
+          content: {
+            ar: "أجهزة الاستشعار",
+            en: "Sensors",
+            fr: "Capteurs",
+          },
+          hash: "2ba1880d03b4543a84eb0b4a676af3e1",
+        },
+        "3/declaration/body/0/argument/1/1/1/5/3": {
+          content: {
+            ar: "+100",
+            en: "+100",
+            fr: "+100",
+          },
+          hash: "0358f51fcdfda120f28443c7f273d929",
+        },
+        "3/declaration/body/0/argument/1/1/3/1": {
+          content: {
+            ar: "الأكسجين المذاب",
+            en: "Oxygen Dissolve",
+            fr: "Oxygène dissous",
+          },
+          hash: "30ad9162dc0b7163790cf77ce87ad3fe",
+        },
+        "3/declaration/body/0/argument/1/1/3/3": {
+          content: {
+            ar: "+20",
+            en: "+20",
+            fr: "+20",
+          },
+          hash: "2ac29d1fbbf988ee4b44a40acf62324c",
+        },
+        "3/declaration/body/0/argument/1/1/5/1": {
+          content: {
+            ar: "أجهزة الاستشعار",
+            en: "Sensors",
+            fr: "Capteurs",
+          },
+          hash: "2ba1880d03b4543a84eb0b4a676af3e1",
+        },
+        "3/declaration/body/0/argument/1/1/5/3": {
+          content: {
+            ar: "+100",
+            en: "+100",
+            fr: "+100",
+          },
+          hash: "0358f51fcdfda120f28443c7f273d929",
+        },
+        "3/declaration/body/0/argument/1/3/1/1": {
+          content: {
+            ar: "التنبيهات",
+            en: "Alerts",
+            fr: "Alertes",
+          },
+          hash: "1e7f74a4a9404806ffabb29d5379a4d8",
+        },
+        "3/declaration/body/0/argument/3/1/1": {
+          content: {
+            ar: "التنبيهات",
+            en: "Alerts",
+            fr: "Alertes",
+          },
+          hash: "1e7f74a4a9404806ffabb29d5379a4d8",
+        },
+        "3/declaration/body/0/argument/3/1/1/1": {
+          content: {
+            ar: "التنبيهات",
+            en: "Alerts",
+            fr: "Alertes",
+          },
+          hash: "1e7f74a4a9404806ffabb29d5379a4d8",
+        },
+        "4/declaration/body/0/argument/1/1/1/1": {
+          content: {
+            ar: "المناطق",
+            en: "Regions",
+            fr: "Régions",
+          },
+          hash: "e238a25e05709a58ebd38f70c08dd2b6",
+        },
+        "4/declaration/body/0/argument/1/1/1/1/1": {
+          content: {
+            ar: "المناطق",
+            en: "Regions",
+            fr: "Régions",
+          },
+          hash: "e238a25e05709a58ebd38f70c08dd2b6",
+        },
+        "4/declaration/body/0/argument/1/1/1/1/3": {
+          content: {
+            ar: "+2",
+            en: "+2",
+            fr: "+2",
+          },
+          hash: "a96b61dcbff93972a3da74910715d042",
+        },
+        "4/declaration/body/0/argument/1/1/1/3": {
+          content: {
+            ar: "+2",
+            en: "+2",
+            fr: "+2",
+          },
+          hash: "a96b61dcbff93972a3da74910715d042",
+        },
+        "4/declaration/body/0/argument/1/1/1/3/1": {
+          content: {
+            ar: "البرك",
+            en: "Ponds",
+            fr: "Bassins",
+          },
+          hash: "e2fc7ce389859028faabc845d3bc6980",
+        },
+        "4/declaration/body/0/argument/1/1/1/3/3": {
+          content: {
+            ar: "+20",
+            en: "+20",
+            fr: "+20",
+          },
+          hash: "2ac29d1fbbf988ee4b44a40acf62324c",
+        },
+        "4/declaration/body/0/argument/1/1/1/5": {
+          content: {
+            ar: "+12% مقارنة بالشهر الماضي",
+            en: "+12% from last month",
+            fr: "+12 % par rapport au mois dernier",
+          },
+          hash: "47babf4beec6eb56c23da3b897b483d3",
+        },
+        "4/declaration/body/0/argument/1/1/1/5/1": {
+          content: {
+            ar: "أجهزة الاستشعار",
+            en: "Sensors",
+            fr: "Capteurs",
+          },
+          hash: "2ba1880d03b4543a84eb0b4a676af3e1",
+        },
+        "4/declaration/body/0/argument/1/1/1/5/3": {
+          content: {
+            ar: "+100",
+            en: "+100",
+            fr: "+100",
+          },
+          hash: "0358f51fcdfda120f28443c7f273d929",
+        },
+        "4/declaration/body/0/argument/1/1/3/1": {
+          content: {
+            ar: "التنبيهات",
+            en: "Alerts",
+            fr: "Alertes",
+          },
+          hash: "1e7f74a4a9404806ffabb29d5379a4d8",
+        },
+        "4/declaration/body/0/argument/1/1/3/1/3": {
+          content: {
+            ar: "الإيرادات",
+            en: "Revenue",
+            fr: "Revenus",
+          },
+          hash: "ff03ab827646d3027cc63ed72943c03d",
+        },
+        "4/declaration/body/0/argument/1/1/3/3": {
+          content: {
+            ar: "+20",
+            en: "+20",
+            fr: "+20",
+          },
+          hash: "2ac29d1fbbf988ee4b44a40acf62324c",
+        },
+        "4/declaration/body/0/argument/1/1/3/5": {
+          content: {
+            ar: "+20% مقارنة بالشهر الماضي",
+            en: "+20% from last month",
+            fr: "+20 % par rapport au mois dernier",
+          },
+          hash: "3742f4d262651854ddb9670f7e9ad5a5",
+        },
+        "4/declaration/body/0/argument/1/1/5/1": {
+          content: {
+            ar: "أجهزة الاستشعار",
+            en: "Sensors",
+            fr: "Capteurs",
+          },
+          hash: "2ba1880d03b4543a84eb0b4a676af3e1",
+        },
+        "4/declaration/body/0/argument/1/1/5/1/3": {
+          content: {
+            ar: "المشاريع النشطة",
+            en: "Active Projects",
+            fr: "Projets actifs",
+          },
+          hash: "18a974eaa9cde83bd3d7ceefa97f77a9",
+        },
+        "4/declaration/body/0/argument/1/1/5/3": {
+          content: {
+            ar: "+100",
+            en: "+100",
+            fr: "+100",
+          },
+          hash: "0358f51fcdfda120f28443c7f273d929",
+        },
+        "4/declaration/body/0/argument/1/1/5/5": {
+          content: {
+            ar: "+2 مقارنة بالأسبوع الماضي",
+            en: "+2 from last week",
+            fr: "+2 par rapport à la semaine dernière",
+          },
+          hash: "5b6c6422b94af079cda8eeaa879a5404",
+        },
+        "4/declaration/body/0/argument/1/1/7/1/3": {
+          content: {
+            ar: "المهام المعلقة",
+            en: "Pending Tasks",
+            fr: "Tâches en attente",
+          },
+          hash: "76753350bf56e4ccc0fdce98a5180aac",
+        },
+        "4/declaration/body/0/argument/1/1/7/3": {
+          content: {
+            ar: "89",
+            en: "89",
+            fr: "89",
+          },
+          hash: "372189913e3e6760a9878b439c9bb00b",
+        },
+        "4/declaration/body/0/argument/1/1/7/5": {
+          content: {
+            ar: "-5 مقارنة بالأمس",
+            en: "-5 from yesterday",
+            fr: "-5 par rapport à hier",
+          },
+          hash: "66f15b58b0b06211fe5c8a0c775d95af",
+        },
+        "4/declaration/body/0/argument/1/3/1/1": {
+          content: {
+            ar: "الأكسجين المذاب",
+            en: "Oxygen Dissolve",
+            fr: "Oxygène dissous",
+          },
+          hash: "30ad9162dc0b7163790cf77ce87ad3fe",
+        },
+        "4/declaration/body/0/argument/1/3/1/3/1/expression/0/body/3/1": {
+          content: {
+            ar: "النشاط <expression/>",
+            en: "Activity <expression/>",
+            fr: "Activité <expression/>",
+          },
+          hash: "200f10ef5438b68db1bd8f19ae02c52c",
+        },
+        "4/declaration/body/0/argument/1/3/1/3/1/expression/0/body/3/3": {
+          content: {
+            ar: "هذا وصف نشاط توضيحي",
+            en: "This is a sample activity description",
+            fr: "Ceci est un exemple de description d'activité",
+          },
+          hash: "fef3c16bf22069cf71e5d6c488ad1176",
+        },
+        "4/declaration/body/0/argument/1/3/1/3/1/expression/0/body/5": {
+          content: {
+            ar: "منذ <expression/>ساعة",
+            en: "<expression/>h ago",
+            fr: "Il y a <expression/>h",
+          },
+          hash: "8d2a48104c2ba1c76404b25577537979",
+        },
+        "4/declaration/body/0/argument/1/3/3/1": {
+          content: {
+            ar: "التنبيهات",
+            en: "Alerts",
+            fr: "Alertes",
+          },
+          hash: "1e7f74a4a9404806ffabb29d5379a4d8",
+        },
+        "4/declaration/body/0/argument/1/3/3/3/1": {
+          content: {
+            ar: "إنشاء مشروع جديد",
+            en: "Create New Project",
+            fr: "Créer un nouveau projet",
+          },
+          hash: "f136c35271fa0120915e190d603aa09e",
+        },
+        "4/declaration/body/0/argument/1/3/3/3/3": {
+          content: {
+            ar: "إضافة مستخدم",
+            en: "Add User",
+            fr: "Ajouter un utilisateur",
+          },
+          hash: "91a42c9988b10283769dbd5918301d18",
+        },
+        "4/declaration/body/0/argument/1/3/3/3/5": {
+          content: {
+            ar: "إنشاء تقرير",
+            en: "Generate Report",
+            fr: "Générer un rapport",
+          },
+          hash: "578ce3bab3ac32290d0be986958d1816",
+        },
         "4/declaration/body/0/argument/1/5/1/1/1": {
           content: {
             ar: "لوحة التحكم",
@@ -308,6 +856,198 @@ export default {
           },
           hash: "578ce3bab3ac32290d0be986958d1816",
         },
+        "5/declaration/body/0/argument/1/1/1/1/1": {
+          content: {
+            ar: "المناطق",
+            en: "Regions",
+            fr: "Régions",
+          },
+          hash: "e238a25e05709a58ebd38f70c08dd2b6",
+        },
+        "5/declaration/body/0/argument/1/1/1/1/3": {
+          content: {
+            ar: "+2",
+            en: "+2",
+            fr: "+2",
+          },
+          hash: "a96b61dcbff93972a3da74910715d042",
+        },
+        "5/declaration/body/0/argument/1/1/1/3/1": {
+          content: {
+            ar: "البرك",
+            en: "Ponds",
+            fr: "Bassins",
+          },
+          hash: "e2fc7ce389859028faabc845d3bc6980",
+        },
+        "5/declaration/body/0/argument/1/1/1/3/3": {
+          content: {
+            ar: "+20",
+            en: "+20",
+            fr: "+20",
+          },
+          hash: "2ac29d1fbbf988ee4b44a40acf62324c",
+        },
+        "5/declaration/body/0/argument/1/1/1/5/1": {
+          content: {
+            ar: "أجهزة الاستشعار",
+            en: "Sensors",
+            fr: "Capteurs",
+          },
+          hash: "2ba1880d03b4543a84eb0b4a676af3e1",
+        },
+        "5/declaration/body/0/argument/1/1/1/5/3": {
+          content: {
+            ar: "+100",
+            en: "+100",
+            fr: "+100",
+          },
+          hash: "0358f51fcdfda120f28443c7f273d929",
+        },
+        "5/declaration/body/0/argument/1/1/3/1": {
+          content: {
+            ar: "الأكسجين المذاب",
+            en: "Oxygen Dissolve",
+            fr: "Oxygène dissous",
+          },
+          hash: "30ad9162dc0b7163790cf77ce87ad3fe",
+        },
+        "5/declaration/body/0/argument/3/1/1/1": {
+          content: {
+            ar: "التنبيهات",
+            en: "Alerts",
+            fr: "Alertes",
+          },
+          hash: "1e7f74a4a9404806ffabb29d5379a4d8",
+        },
+        "6/declaration/body/0/argument/1/1/1/1/1": {
+          content: {
+            ar: "المناطق",
+            en: "Regions",
+            fr: "Régions",
+          },
+          hash: "e238a25e05709a58ebd38f70c08dd2b6",
+        },
+        "6/declaration/body/0/argument/1/1/1/1/3": {
+          content: {
+            ar: "+2",
+            en: "+2",
+            fr: "+2",
+          },
+          hash: "a96b61dcbff93972a3da74910715d042",
+        },
+        "6/declaration/body/0/argument/1/1/1/3/1": {
+          content: {
+            ar: "البرك",
+            en: "Ponds",
+            fr: "Bassins",
+          },
+          hash: "e2fc7ce389859028faabc845d3bc6980",
+        },
+        "6/declaration/body/0/argument/1/1/1/3/3": {
+          content: {
+            ar: "+20",
+            en: "+20",
+            fr: "+20",
+          },
+          hash: "2ac29d1fbbf988ee4b44a40acf62324c",
+        },
+        "6/declaration/body/0/argument/1/1/1/5/1": {
+          content: {
+            ar: "أجهزة الاستشعار",
+            en: "Sensors",
+            fr: "Capteurs",
+          },
+          hash: "2ba1880d03b4543a84eb0b4a676af3e1",
+        },
+        "6/declaration/body/0/argument/1/1/1/5/3": {
+          content: {
+            ar: "+100",
+            en: "+100",
+            fr: "+100",
+          },
+          hash: "0358f51fcdfda120f28443c7f273d929",
+        },
+        "6/declaration/body/0/argument/1/1/3/1": {
+          content: {
+            ar: "الأكسجين المذاب",
+            en: "Oxygen Dissolve",
+            fr: "Oxygène dissous",
+          },
+          hash: "30ad9162dc0b7163790cf77ce87ad3fe",
+        },
+        "6/declaration/body/0/argument/3/1/1/1": {
+          content: {
+            ar: "التنبيهات",
+            en: "Alerts",
+            fr: "Alertes",
+          },
+          hash: "1e7f74a4a9404806ffabb29d5379a4d8",
+        },
+        "6/declaration/body/0/argument/3/1/3/1": {
+          content: {
+            ar: "المهام",
+            en: "Tasks",
+            fr: "Tâches",
+          },
+          hash: "efde951ded884b7dbf0f81e45d93a8f9",
+        },
+      },
+    },
+    "app/error.tsx": {
+      entries: {
+        "1/declaration/body/1/argument/1": {
+          content: {
+            ar: "حدث خطأ ما",
+            en: "Something went wrong",
+            fr: "Une erreur s'est produite",
+          },
+          hash: "a3cd2f01c073f1f5ff436d4b132d39cf",
+        },
+        "1/declaration/body/1/argument/3": {
+          content: {
+            ar: "عذرًا، حدث خطأ غير متوقع.",
+            en: "Sorry, an unexpected error has occurred.",
+            fr: "Désolé, une erreur inattendue est survenue.",
+          },
+          hash: "7062019066d0c6218f48bb0c3583f048",
+        },
+        "1/declaration/body/1/argument/5": {
+          content: {
+            ar: "العودة",
+            en: "Go Back",
+            fr: "Retour",
+          },
+          hash: "036f73debb113ba0d0d1cb5c7cefd459",
+        },
+      },
+    },
+    "app/not-found.tsx": {
+      entries: {
+        "2/declaration/body/1/argument/3": {
+          content: {
+            ar: "الصفحة غير موجودة",
+            en: "Page Not Found",
+            fr: "Page non trouvée",
+          },
+          hash: "5b1dea4722f8fd52b68f7ac5ce89875d",
+        },
+        "2/declaration/body/1/argument/5": {
+          content: {
+            ar: "عذراً، الصفحة التي تبحث عنها غير موجودة.",
+            en: "Sorry, the page you are looking for does not exist.",
+            fr: "Désolé, la page que vous recherchez n'existe pas.",
+          },
+          hash: "f7dff0eb9c9da36c3b1620428061a61f",
+        },
+        "2/declaration/body/1/argument/7": {
+          content: {
+            ar: "العودة",
+            en: "Go Back",
+            fr: "Retour",
+          },
+          hash: "036f73debb113ba0d0d1cb5c7cefd459",
+        },
       },
     },
     "app/page.tsx": {
@@ -444,6 +1184,62 @@ export default {
           },
           hash: "c9380ea68c8c76ea451bd9613329a07c",
         },
+        "8/declaration/body/1/argument/1/3/1/1/1/1/1-alt": {
+          content: {
+            ar: "FishTer",
+            en: "FishTer",
+            fr: "FishTer",
+          },
+          hash: "4a9f64ed533192da0573a807e0a00414",
+        },
+        "8/declaration/body/1/argument/1/3/1/1/1/3/1": {
+          content: {
+            ar: "FishTer",
+            en: "FishTer",
+            fr: "FishTer",
+          },
+          hash: "4a9f64ed533192da0573a807e0a00414",
+        },
+        "8/declaration/body/1/argument/1/3/1/1/1/3/3": {
+          content: {
+            ar: "لوحة التحكم",
+            en: "Dashboard",
+            fr: "Tableau de bord",
+          },
+          hash: "c9380ea68c8c76ea451bd9613329a07c",
+        },
+        "9/declaration/body/1/argument/1/3/1/1/1/1-alt": {
+          content: {
+            ar: "FishTer",
+            en: "FishTer",
+            fr: "FishTer",
+          },
+          hash: "4a9f64ed533192da0573a807e0a00414",
+        },
+        "9/declaration/body/1/argument/1/3/1/1/1/1/1-alt": {
+          content: {
+            ar: "FishTer",
+            en: "FishTer",
+            fr: "FishTer",
+          },
+          hash: "4a9f64ed533192da0573a807e0a00414",
+        },
+        "9/declaration/body/1/argument/1/3/1/1/1/3/1": {
+          content: {
+            ar: "FishTer",
+            en: "FishTer",
+            fr: "FishTer",
+          },
+          hash: "4a9f64ed533192da0573a807e0a00414",
+        },
+        "9/declaration/body/1/argument/1/3/1/1/1/3/3": {
+          content: {
+            ar: "لوحة التحكم",
+            en: "Dashboard",
+            fr: "Tableau de bord",
+          },
+          hash: "c9380ea68c8c76ea451bd9613329a07c",
+        },
       },
     },
     "components/nav-user.tsx": {
@@ -487,6 +1283,282 @@ export default {
             fr: "<element:LogOut></element:LogOut> Se déconnecter",
           },
           hash: "590887de65485d5e66ae9b1838aa495d",
+        },
+      },
+    },
+    "components/ui/AlertElement.tsx": {
+      entries: {
+        "3/declaration/body/0/argument/1/1/1/1": {
+          content: {
+            ar: "البركة",
+            en: "Pond",
+            fr: "Bassin",
+          },
+          hash: "7c07cc3c854f8dc15f1c890f5030b948",
+        },
+        "3/declaration/body/0/argument/1/1/1/3": {
+          content: {
+            ar: "المناطق",
+            en: "Regions",
+            fr: "Régions",
+          },
+          hash: "e238a25e05709a58ebd38f70c08dd2b6",
+        },
+        "3/declaration/body/0/argument/1/1/1/5": {
+          content: {
+            ar: "ملاحظة",
+            en: "Note",
+            fr: "Note",
+          },
+          hash: "e0337f202c911423275f834edeffc54b",
+        },
+        "3/declaration/body/0/argument/1/1/1/7": {
+          content: {
+            ar: "الحالة",
+            en: "Status",
+            fr: "Statut",
+          },
+          hash: "4e1fcce15854d824919b4a582c697c90",
+        },
+        "3/declaration/body/0/argument/1/1/1/9": {
+          content: {
+            ar: "الوقت",
+            en: "Time",
+            fr: "Heure",
+          },
+          hash: "b504a03d52e8001bfdc5cb6205364f42",
+        },
+        "3/declaration/body/0/argument/1/3/1/expression/0/body/1": {
+          content: {
+            ar: "البركة {alert.pondId}",
+            en: "Pond {alert.pondId}",
+            fr: "Bassin {alert.pondId}",
+          },
+          hash: "c878101b72af9486f5a5d89c6195c59d",
+        },
+      },
+    },
+    "components/ui/AlertTable.tsx": {
+      entries: {
+        "3/declaration/body/0/argument/1/1/1/1": {
+          content: {
+            ar: "البركة",
+            en: "Pond",
+            fr: "Bassin",
+          },
+          hash: "7c07cc3c854f8dc15f1c890f5030b948",
+        },
+        "3/declaration/body/0/argument/1/1/1/3": {
+          content: {
+            ar: "المناطق",
+            en: "Regions",
+            fr: "Régions",
+          },
+          hash: "e238a25e05709a58ebd38f70c08dd2b6",
+        },
+        "3/declaration/body/0/argument/1/1/1/5": {
+          content: {
+            ar: "ملاحظة",
+            en: "Note",
+            fr: "Note",
+          },
+          hash: "e0337f202c911423275f834edeffc54b",
+        },
+        "3/declaration/body/0/argument/1/1/1/7": {
+          content: {
+            ar: "الحالة",
+            en: "Status",
+            fr: "Statut",
+          },
+          hash: "4e1fcce15854d824919b4a582c697c90",
+        },
+        "3/declaration/body/0/argument/1/1/1/9": {
+          content: {
+            ar: "الوقت",
+            en: "Time",
+            fr: "Heure",
+          },
+          hash: "b504a03d52e8001bfdc5cb6205364f42",
+        },
+        "3/declaration/body/0/argument/1/3/1/expression/0/body/1": {
+          content: {
+            ar: "البركة {alert.pondId}",
+            en: "Pond {alert.pondId}",
+            fr: "Bassin {alert.pondId}",
+          },
+          hash: "c878101b72af9486f5a5d89c6195c59d",
+        },
+      },
+    },
+    "components/ui/alerts/AlertTable.tsx": {
+      entries: {
+        "3/declaration/body/0/argument/1/1/1/1": {
+          content: {
+            ar: "البركة",
+            en: "Pond",
+            fr: "Bassin",
+          },
+          hash: "7c07cc3c854f8dc15f1c890f5030b948",
+        },
+        "3/declaration/body/0/argument/1/1/1/3": {
+          content: {
+            ar: "المناطق",
+            en: "Regions",
+            fr: "Régions",
+          },
+          hash: "e238a25e05709a58ebd38f70c08dd2b6",
+        },
+        "3/declaration/body/0/argument/1/1/1/5": {
+          content: {
+            ar: "ملاحظة",
+            en: "Note",
+            fr: "Note",
+          },
+          hash: "e0337f202c911423275f834edeffc54b",
+        },
+        "3/declaration/body/0/argument/1/1/1/7": {
+          content: {
+            ar: "الحالة",
+            en: "Status",
+            fr: "Statut",
+          },
+          hash: "4e1fcce15854d824919b4a582c697c90",
+        },
+        "3/declaration/body/0/argument/1/1/1/9": {
+          content: {
+            ar: "الوقت",
+            en: "Time",
+            fr: "Heure",
+          },
+          hash: "b504a03d52e8001bfdc5cb6205364f42",
+        },
+        "3/declaration/body/0/argument/1/3/1/expression/0/body/1": {
+          content: {
+            ar: "البركة {alert.pondId}",
+            en: "Pond {alert.pondId}",
+            fr: "Bassin {alert.pondId}",
+          },
+          hash: "c878101b72af9486f5a5d89c6195c59d",
+        },
+      },
+    },
+    "components/ui/chart-area.tsx": {
+      entries: {
+        "5/declaration/body/0/argument/5/1/1/1": {
+          content: {
+            ar: "ارتفاع بنسبة 5.2% هذا الشهر <element:TrendingUp></element:TrendingUp>",
+            en: "Trending up by 5.2% this month <element:TrendingUp></element:TrendingUp>",
+            fr: "En hausse de 5,2 % ce mois-ci <element:TrendingUp></element:TrendingUp>",
+          },
+          hash: "7afd17b93797686a96fe608127a58b11",
+        },
+        "5/declaration/body/0/argument/5/1/1/3": {
+          content: {
+            ar: "يناير - يونيو 2024",
+            en: "January - June 2024",
+            fr: "Janvier - juin 2024",
+          },
+          hash: "144f2b3834b868b909fe3cec2468a246",
+        },
+        "6/declaration/body/0/argument/5/1/1/1": {
+          content: {
+            ar: "ارتفاع بنسبة 5.2% هذا الشهر <element:TrendingUp></element:TrendingUp>",
+            en: "Trending up by 5.2% this month <element:TrendingUp></element:TrendingUp>",
+            fr: "En hausse de 5,2 % ce mois-ci <element:TrendingUp></element:TrendingUp>",
+          },
+          hash: "7afd17b93797686a96fe608127a58b11",
+        },
+        "6/declaration/body/0/argument/5/1/1/3": {
+          content: {
+            ar: "يناير - يونيو 2024",
+            en: "January - June 2024",
+            fr: "Janvier - juin 2024",
+          },
+          hash: "144f2b3834b868b909fe3cec2468a246",
+        },
+        "6/declaration/body/2/argument/1/3/1": {
+          content: {
+            ar: "أسبوع",
+            en: "Week",
+            fr: "Semaine",
+          },
+          hash: "ca0aa6a626a08778f5237daa1353663d",
+        },
+        "6/declaration/body/2/argument/1/3/3": {
+          content: {
+            ar: "شهر",
+            en: "Month",
+            fr: "Mois",
+          },
+          hash: "8f37899beb74a5cd9dc57422eb0b9251",
+        },
+        "6/declaration/body/2/argument/3/1/1": {
+          content: {
+            ar: "أسبوع",
+            en: "Week",
+            fr: "Semaine",
+          },
+          hash: "ca0aa6a626a08778f5237daa1353663d",
+        },
+        "6/declaration/body/2/argument/3/1/3": {
+          content: {
+            ar: "شهر",
+            en: "Month",
+            fr: "Mois",
+          },
+          hash: "8f37899beb74a5cd9dc57422eb0b9251",
+        },
+        "6/declaration/body/3/argument/1/3/1": {
+          content: {
+            ar: "أسبوع",
+            en: "Week",
+            fr: "Semaine",
+          },
+          hash: "ca0aa6a626a08778f5237daa1353663d",
+        },
+        "6/declaration/body/3/argument/1/3/3": {
+          content: {
+            ar: "شهر",
+            en: "Month",
+            fr: "Mois",
+          },
+          hash: "8f37899beb74a5cd9dc57422eb0b9251",
+        },
+        "7/declaration/body/2/argument/3/1/1": {
+          content: {
+            ar: "أسبوع",
+            en: "Week",
+            fr: "Semaine",
+          },
+          hash: "ca0aa6a626a08778f5237daa1353663d",
+        },
+        "7/declaration/body/2/argument/3/1/3": {
+          content: {
+            ar: "شهر",
+            en: "Month",
+            fr: "Mois",
+          },
+          hash: "8f37899beb74a5cd9dc57422eb0b9251",
+        },
+      },
+    },
+    "components/ui/charts/chart-area.tsx": {
+      entries: {
+        "6/declaration/body/3/argument/1/3/1": {
+          content: {
+            ar: "أسبوع",
+            en: "Week",
+            fr: "Semaine",
+          },
+          hash: "ca0aa6a626a08778f5237daa1353663d",
+        },
+        "6/declaration/body/3/argument/1/3/3": {
+          content: {
+            ar: "شهر",
+            en: "Month",
+            fr: "Mois",
+          },
+          hash: "8f37899beb74a5cd9dc57422eb0b9251",
         },
       },
     },

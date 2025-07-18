@@ -23,6 +23,8 @@ import {
   SidebarMenuItem,
 } from "@/components/ui/shadcn/sidebar";
 import AppLocaleSwitcher from "./LanguageSwitcher";
+import Image from "next/image";
+import Link from "next/link";
 
 // Sample data for navigation items
 const navItems = [
@@ -80,15 +82,17 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
         <SidebarMenu>
           <SidebarMenuItem>
             <SidebarMenuButton size="lg" asChild className="md:h-8 md:p-0">
-              <a href="/dashboard">
-                <div className="bg-sidebar-primary text-sidebar-primary-foreground flex aspect-square size-8 items-center justify-center rounded-lg">
-                  <Home className="size-4" />
-                </div>
+              <Link href="/dashboard">
+                <Image
+                  src="/imgs/logo.png"
+                  alt="FishTer"
+                  width={52}
+                  height={52}
+                />
                 <div className="grid flex-1 text-left text-sm leading-tight">
-                  <span className="truncate font-medium">FishTer</span>
-                  <span className="truncate text-xs">Dashboard</span>
+                  <span className="truncate font-bold text-xl">FishTer</span>
                 </div>
-              </a>
+              </Link>
             </SidebarMenuButton>
           </SidebarMenuItem>
         </SidebarMenu>
@@ -109,7 +113,7 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                     className="px-2.5 md:px-2"
                   >
                     <item.icon />
-                    <span>{item.title}</span>
+                    <Link href={item.url}>{item.title}</Link>
                   </SidebarMenuButton>
                 </SidebarMenuItem>
               ))}
