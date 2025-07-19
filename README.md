@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fishta
 
-## Getting Started
+Fishta is a modern aquaculture management platform for monitoring, alerting, and optimizing fish farming operations. It provides real-time dashboards, analytics, and control interfaces for pond managers and technicians.
 
-First, run the development server:
+## Structure
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Frontend:** This Next.js app (in this repository)
+- **Backend:** Laravel API (separate repository)
+- **AI/Agents:** Python microservices and AI models for analytics and automation
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies & Purpose
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js 13 (App Router):** Modern React-based frontend framework for SSR and client/server components
+- **TypeScript:** Type safety across the codebase
+- **Tailwind CSS:** Utility-first styling for rapid UI development
+- **shadcn/ui:** Accessible, customizable UI components
+- **Lingo.dev:** Localization with AI
+- **Pusher:** Real-time updates and notifications
+- **Lucide React:** Icon library for consistent visuals
+- **Laravel (backend):** RESTful API, authentication, and business logic
+- **Python (agents):** Data processing, AI/ML, and automation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Environment Setup
 
-## Learn More
+- Copy `.env.example` to `.env` and fill in the required values (API URLs, keys, etc.)
+- Install dependencies: `npm install`
+- Run the app: `npm run dev`
 
-To learn more about Next.js, take a look at the following resources:
+## Design
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- UI follows the Figma design system for consistency and usability 🎨
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For backend and AI setup, see their respective repositories.
