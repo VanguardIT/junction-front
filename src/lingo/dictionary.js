@@ -336,6 +336,150 @@ export default {
           },
           hash: "578ce3bab3ac32290d0be986958d1816",
         },
+        "10/declaration/body/4/argument/1/1/1/1/1": {
+          content: {
+            ar: "المناطق",
+            en: "Regions",
+            fr: "Régions",
+          },
+          hash: "e238a25e05709a58ebd38f70c08dd2b6",
+        },
+        "10/declaration/body/4/argument/1/1/1/1/3": {
+          content: {
+            ar: "+2",
+            en: "+2",
+            fr: "+2",
+          },
+          hash: "a96b61dcbff93972a3da74910715d042",
+        },
+        "10/declaration/body/4/argument/1/1/1/3/1": {
+          content: {
+            ar: "البرك",
+            en: "Ponds",
+            fr: "Bassins",
+          },
+          hash: "e2fc7ce389859028faabc845d3bc6980",
+        },
+        "10/declaration/body/4/argument/1/1/1/3/3": {
+          content: {
+            ar: "+20",
+            en: "+20",
+            fr: "+20",
+          },
+          hash: "2ac29d1fbbf988ee4b44a40acf62324c",
+        },
+        "10/declaration/body/4/argument/1/1/1/5/1": {
+          content: {
+            ar: "أجهزة الاستشعار",
+            en: "Sensors",
+            fr: "Capteurs",
+          },
+          hash: "2ba1880d03b4543a84eb0b4a676af3e1",
+        },
+        "10/declaration/body/4/argument/1/1/1/5/3": {
+          content: {
+            ar: "+100",
+            en: "+100",
+            fr: "+100",
+          },
+          hash: "0358f51fcdfda120f28443c7f273d929",
+        },
+        "10/declaration/body/4/argument/1/1/3/1": {
+          content: {
+            ar: "الأكسجين المذاب",
+            en: "Oxygen Dissolve",
+            fr: "Oxygène dissous",
+          },
+          hash: "30ad9162dc0b7163790cf77ce87ad3fe",
+        },
+        "10/declaration/body/4/argument/3/1/1/1": {
+          content: {
+            ar: "التنبيهات",
+            en: "Alerts",
+            fr: "Alertes",
+          },
+          hash: "1e7f74a4a9404806ffabb29d5379a4d8",
+        },
+        "10/declaration/body/4/argument/3/1/3/1": {
+          content: {
+            ar: "المهام",
+            en: "Tasks",
+            fr: "Tâches",
+          },
+          hash: "efde951ded884b7dbf0f81e45d93a8f9",
+        },
+        "11/declaration/body/4/argument/1/1/1/1/1": {
+          content: {
+            ar: "المناطق",
+            en: "Regions",
+            fr: "Régions",
+          },
+          hash: "e238a25e05709a58ebd38f70c08dd2b6",
+        },
+        "11/declaration/body/4/argument/1/1/1/1/3": {
+          content: {
+            ar: "+2",
+            en: "+2",
+            fr: "+2",
+          },
+          hash: "a96b61dcbff93972a3da74910715d042",
+        },
+        "11/declaration/body/4/argument/1/1/1/3/1": {
+          content: {
+            ar: "البرك",
+            en: "Ponds",
+            fr: "Bassins",
+          },
+          hash: "e2fc7ce389859028faabc845d3bc6980",
+        },
+        "11/declaration/body/4/argument/1/1/1/3/3": {
+          content: {
+            ar: "+20",
+            en: "+20",
+            fr: "+20",
+          },
+          hash: "2ac29d1fbbf988ee4b44a40acf62324c",
+        },
+        "11/declaration/body/4/argument/1/1/1/5/1": {
+          content: {
+            ar: "أجهزة الاستشعار",
+            en: "Sensors",
+            fr: "Capteurs",
+          },
+          hash: "2ba1880d03b4543a84eb0b4a676af3e1",
+        },
+        "11/declaration/body/4/argument/1/1/1/5/3": {
+          content: {
+            ar: "+100",
+            en: "+100",
+            fr: "+100",
+          },
+          hash: "0358f51fcdfda120f28443c7f273d929",
+        },
+        "11/declaration/body/4/argument/1/1/3/1": {
+          content: {
+            ar: "الأكسجين المذاب",
+            en: "Oxygen Dissolve",
+            fr: "Oxygène dissous",
+          },
+          hash: "30ad9162dc0b7163790cf77ce87ad3fe",
+        },
+        "11/declaration/body/4/argument/3/1/1/1": {
+          content: {
+            ar: "التنبيهات",
+            en: "Alerts",
+            fr: "Alertes",
+          },
+          hash: "1e7f74a4a9404806ffabb29d5379a4d8",
+        },
+        "11/declaration/body/4/argument/3/1/3/1": {
+          content: {
+            ar: "المهام",
+            en: "Tasks",
+            fr: "Tâches",
+          },
+          hash: "efde951ded884b7dbf0f81e45d93a8f9",
+        },
         "3/declaration/body/0/argument/1/1/1/1": {
           content: {
             ar: "المناطق",
@@ -992,6 +1136,238 @@ export default {
           },
           hash: "efde951ded884b7dbf0f81e45d93a8f9",
         },
+        "9/declaration/body/4/argument/1/1/1": {
+          content: {
+            ar: "المناطق",
+            en: "Regions",
+            fr: "Régions",
+          },
+          hash: "e238a25e05709a58ebd38f70c08dd2b6",
+        },
+        "9/declaration/body/4/argument/1/1/1/1": {
+          content: {
+            ar: "المناطق",
+            en: "Regions",
+            fr: "Régions",
+          },
+          hash: "e238a25e05709a58ebd38f70c08dd2b6",
+        },
+        "9/declaration/body/4/argument/1/1/1/1/1": {
+          content: {
+            ar: "المناطق",
+            en: "Regions",
+            fr: "Régions",
+          },
+          hash: "e238a25e05709a58ebd38f70c08dd2b6",
+        },
+        "9/declaration/body/4/argument/1/1/1/1/3": {
+          content: {
+            ar: "+2",
+            en: "+2",
+            fr: "+2",
+          },
+          hash: "a96b61dcbff93972a3da74910715d042",
+        },
+        "9/declaration/body/4/argument/1/1/1/3": {
+          content: {
+            ar: "+2",
+            en: "+2",
+            fr: "+2",
+          },
+          hash: "a96b61dcbff93972a3da74910715d042",
+        },
+        "9/declaration/body/4/argument/1/1/1/3/1": {
+          content: {
+            ar: "البرك",
+            en: "Ponds",
+            fr: "Bassins",
+          },
+          hash: "e2fc7ce389859028faabc845d3bc6980",
+        },
+        "9/declaration/body/4/argument/1/1/1/3/3": {
+          content: {
+            ar: "+20",
+            en: "+20",
+            fr: "+20",
+          },
+          hash: "2ac29d1fbbf988ee4b44a40acf62324c",
+        },
+        "9/declaration/body/4/argument/1/1/1/5/1": {
+          content: {
+            ar: "أجهزة الاستشعار",
+            en: "Sensors",
+            fr: "Capteurs",
+          },
+          hash: "2ba1880d03b4543a84eb0b4a676af3e1",
+        },
+        "9/declaration/body/4/argument/1/1/1/5/3": {
+          content: {
+            ar: "+100",
+            en: "+100",
+            fr: "+100",
+          },
+          hash: "0358f51fcdfda120f28443c7f273d929",
+        },
+        "9/declaration/body/4/argument/1/1/3": {
+          content: {
+            ar: "+2",
+            en: "+2",
+            fr: "+2",
+          },
+          hash: "a96b61dcbff93972a3da74910715d042",
+        },
+        "9/declaration/body/4/argument/1/1/3/1": {
+          content: {
+            ar: "البرك",
+            en: "Ponds",
+            fr: "Bassins",
+          },
+          hash: "e2fc7ce389859028faabc845d3bc6980",
+        },
+        "9/declaration/body/4/argument/1/1/3/3": {
+          content: {
+            ar: "+20",
+            en: "+20",
+            fr: "+20",
+          },
+          hash: "2ac29d1fbbf988ee4b44a40acf62324c",
+        },
+        "9/declaration/body/4/argument/1/1/5/1": {
+          content: {
+            ar: "أجهزة الاستشعار",
+            en: "Sensors",
+            fr: "Capteurs",
+          },
+          hash: "2ba1880d03b4543a84eb0b4a676af3e1",
+        },
+        "9/declaration/body/4/argument/1/1/5/3": {
+          content: {
+            ar: "+100",
+            en: "+100",
+            fr: "+100",
+          },
+          hash: "0358f51fcdfda120f28443c7f273d929",
+        },
+        "9/declaration/body/4/argument/1/3/1": {
+          content: {
+            ar: "البرك",
+            en: "Ponds",
+            fr: "Bassins",
+          },
+          hash: "e2fc7ce389859028faabc845d3bc6980",
+        },
+        "9/declaration/body/4/argument/1/3/3": {
+          content: {
+            ar: "+20",
+            en: "+20",
+            fr: "+20",
+          },
+          hash: "2ac29d1fbbf988ee4b44a40acf62324c",
+        },
+        "9/declaration/body/4/argument/1/5/1": {
+          content: {
+            ar: "أجهزة الاستشعار",
+            en: "Sensors",
+            fr: "Capteurs",
+          },
+          hash: "2ba1880d03b4543a84eb0b4a676af3e1",
+        },
+        "9/declaration/body/4/argument/1/5/3": {
+          content: {
+            ar: "+100",
+            en: "+100",
+            fr: "+100",
+          },
+          hash: "0358f51fcdfda120f28443c7f273d929",
+        },
+        "9/declaration/body/4/argument/1/7/1": {
+          content: {
+            ar: "الأكسجين المذاب",
+            en: "Oxygen Dissolve",
+            fr: "Oxygène dissous",
+          },
+          hash: "30ad9162dc0b7163790cf77ce87ad3fe",
+        },
+        "9/declaration/body/4/argument/13/openingElement/0/value/expression": {
+          content: {
+            ar: "جارٍ تحميل لوحة التحكم...",
+            en: "Loading dashboard...",
+            fr: "Chargement du tableau de bord...",
+          },
+          hash: "7a27f2bb351fc1325db223d1b33df77d",
+        },
+        "9/declaration/body/4/argument/3/1": {
+          content: {
+            ar: "الأكسجين المذاب",
+            en: "Oxygen Dissolve",
+            fr: "Oxygène dissous",
+          },
+          hash: "30ad9162dc0b7163790cf77ce87ad3fe",
+        },
+        "9/declaration/body/4/argument/3/1/1/1": {
+          content: {
+            ar: "التنبيهات",
+            en: "Alerts",
+            fr: "Alertes",
+          },
+          hash: "1e7f74a4a9404806ffabb29d5379a4d8",
+        },
+        "9/declaration/body/4/argument/3/1/3/1": {
+          content: {
+            ar: "المهام",
+            en: "Tasks",
+            fr: "Tâches",
+          },
+          hash: "efde951ded884b7dbf0f81e45d93a8f9",
+        },
+        "9/declaration/body/4/argument/5/1": {
+          content: {
+            ar: "التنبيهات",
+            en: "Alerts",
+            fr: "Alertes",
+          },
+          hash: "1e7f74a4a9404806ffabb29d5379a4d8",
+        },
+        "9/declaration/body/4/argument/5/1/1": {
+          content: {
+            ar: "التنبيهات",
+            en: "Alerts",
+            fr: "Alertes",
+          },
+          hash: "1e7f74a4a9404806ffabb29d5379a4d8",
+        },
+        "9/declaration/body/4/argument/5/1/1/1": {
+          content: {
+            ar: "التنبيهات",
+            en: "Alerts",
+            fr: "Alertes",
+          },
+          hash: "1e7f74a4a9404806ffabb29d5379a4d8",
+        },
+        "9/declaration/body/4/argument/5/1/3/1": {
+          content: {
+            ar: "المهام",
+            en: "Tasks",
+            fr: "Tâches",
+          },
+          hash: "efde951ded884b7dbf0f81e45d93a8f9",
+        },
+        "9/declaration/body/4/argument/5/3/1": {
+          content: {
+            ar: "المهام",
+            en: "Tasks",
+            fr: "Tâches",
+          },
+          hash: "efde951ded884b7dbf0f81e45d93a8f9",
+        },
+        "9/declaration/body/4/argument/7/1": {
+          content: {
+            ar: "المهام",
+            en: "Tasks",
+            fr: "Tâches",
+          },
+          hash: "efde951ded884b7dbf0f81e45d93a8f9",
+        },
       },
     },
     "app/error.tsx": {
@@ -1147,6 +1523,143 @@ export default {
             fr: "Icône de globe",
           },
           hash: "4467320f63442e7e0729ad6d55b4a8b1",
+        },
+        "3/declaration/body/0/argument/1/1-alt": {
+          content: {
+            ar: "شعار Next.js",
+            en: "Next.js logo",
+            fr: "Logo Next.js",
+          },
+          hash: "d466a5d83229413a6a5a6733490b8e92",
+        },
+        "3/declaration/body/0/argument/1/3/1": {
+          content: {
+            ar: "ابدأ بتحرير <element:code>app/page.tsx</element:code> .",
+            en: "Get started by editing <element:code>app/page.tsx</element:code> .",
+            fr: "Commencez par modifier <element:code>app/page.tsx</element:code> .",
+          },
+          hash: "4b6f703a91c1da3ea27d7cd4f81eed00",
+        },
+        "3/declaration/body/0/argument/1/3/3": {
+          content: {
+            ar: "احفظ وشاهد تغييراتك فورًا.",
+            en: "Save and see your changes instantly.",
+            fr: "Enregistrez et voyez vos changements instantanément.",
+          },
+          hash: "4f2bd22c0a2ce4d85d3cf3c758371d07",
+        },
+        "3/declaration/body/0/argument/1/5/1": {
+          content: {
+            ar: "<element:Image></element:Image> نشر الآن",
+            en: "<element:Image></element:Image> Deploy now",
+            fr: "<element:Image></element:Image> Déployer maintenant",
+          },
+          hash: "1e7142eabfb50a998a0625bc66592354",
+        },
+        "3/declaration/body/0/argument/1/5/1/1-alt": {
+          content: {
+            ar: "علامة Vercel",
+            en: "Vercel logomark",
+            fr: "Logo Vercel",
+          },
+          hash: "f9c3b0f527a8caeed7a3a1ac7f4a3ab5",
+        },
+        "3/declaration/body/0/argument/1/5/3": {
+          content: {
+            ar: "اقرأ وثائقنا",
+            en: "Read our docs",
+            fr: "Lire notre documentation",
+          },
+          hash: "c788845ca96b9a02da85f5ba5cc2ec1b",
+        },
+        "3/declaration/body/0/argument/3/1": {
+          content: {
+            ar: "<element:Image></element:Image> تعلم",
+            en: "<element:Image></element:Image> Learn",
+            fr: "<element:Image></element:Image> Apprendre",
+          },
+          hash: "311d29f18ede3976330e70a65c7f9174",
+        },
+        "3/declaration/body/0/argument/3/1/1-alt": {
+          content: {
+            ar: "أيقونة الملف",
+            en: "File icon",
+            fr: "Icône de fichier",
+          },
+          hash: "c9fdbf0f3d05590518cd8cfe360a1435",
+        },
+        "3/declaration/body/0/argument/3/3": {
+          content: {
+            ar: "<element:Image></element:Image> أمثلة",
+            en: "<element:Image></element:Image> Examples",
+            fr: "<element:Image></element:Image> Exemples",
+          },
+          hash: "d69424beb631df7de9f7f6b7619d553f",
+        },
+        "3/declaration/body/0/argument/3/3/1-alt": {
+          content: {
+            ar: "أيقونة النافذة",
+            en: "Window icon",
+            fr: "Icône de fenêtre",
+          },
+          hash: "30a1005a1635872a103f100d02d7c9b2",
+        },
+        "3/declaration/body/0/argument/3/5": {
+          content: {
+            ar: "<element:Image></element:Image> انتقل إلى nextjs.org ←",
+            en: "<element:Image></element:Image> Go to nextjs.org →",
+            fr: "<element:Image></element:Image> Aller sur nextjs.org →",
+          },
+          hash: "50b10af3ab7eeef1912183a228dd59bf",
+        },
+        "3/declaration/body/0/argument/3/5/1-alt": {
+          content: {
+            ar: "أيقونة الكرة الأرضية",
+            en: "Globe icon",
+            fr: "Icône de globe",
+          },
+          hash: "4467320f63442e7e0729ad6d55b4a8b1",
+        },
+      },
+    },
+    "components/RealtimePonds.tsx": {
+      entries: {
+        "3/0/init/body/4/argument/1": {
+          content: {
+            ar: "البرك",
+            en: "Ponds",
+            fr: "Bassins",
+          },
+          hash: "e2fc7ce389859028faabc845d3bc6980",
+        },
+      },
+    },
+    "components/Realtimetips.tsx": {
+      entries: {
+        "3/0/init/body/4/argument/1": {
+          content: {
+            ar: "أحدث المهام",
+            en: "Latest Tasks",
+            fr: "Dernières tâches",
+          },
+          hash: "6a6a2a88b52c2f1d8deb9137d9379a52",
+        },
+        "3/0/init/body/4/argument/3/expression/alternate/alternate/1/expression/0/body/1/1/3":
+          {
+            content: {
+              ar: "البركة: <expression/>",
+              en: "Pond: <expression/>",
+              fr: "Bassin : <expression/>",
+            },
+            hash: "0db98b6e153b6bbf5df2084ed1c9ec44",
+          },
+        "3/0/init/body/4/argument/3/expression/alternate/consequent": {
+          content: {
+            ar: "لا توجد مهام",
+            en: "No tasks",
+            fr: "Aucune tâche",
+          },
+          hash: "e34a4ceabd6dde54352320a5e56c349f",
         },
       },
     },
@@ -1439,6 +1952,35 @@ export default {
             fr: "Bassin {alert.pondId}",
           },
           hash: "c878101b72af9486f5a5d89c6195c59d",
+        },
+      },
+    },
+    "components/ui/alerts/RealtimeAlerts.tsx": {
+      entries: {
+        "3/0/init/body/5/argument/1": {
+          content: {
+            ar: "أحدث التنبيهات",
+            en: "Latest Alerts",
+            fr: "Dernières alertes",
+          },
+          hash: "08fc7705efc0dbb934dd7cefd71e08d8",
+        },
+        "3/0/init/body/5/argument/3/expression/alternate/alternate/1/expression/0/body/1/1/3":
+          {
+            content: {
+              ar: "البركة: <expression/>",
+              en: "Pond: <expression/>",
+              fr: "Bassin : <expression/>",
+            },
+            hash: "0db98b6e153b6bbf5df2084ed1c9ec44",
+          },
+        "3/0/init/body/5/argument/3/expression/alternate/consequent": {
+          content: {
+            ar: "لا توجد تنبيهات",
+            en: "No alerts",
+            fr: "Aucune alerte",
+          },
+          hash: "00f321d18a97905a5a2b1fba98b0d16c",
         },
       },
     },

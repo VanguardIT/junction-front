@@ -347,6 +347,230 @@
           "overrides": {},
           "content": "Generate Report"
         },
+        "10/declaration/body/4/argument/1/1/1": {
+          "type": "element",
+          "hash": "e238a25e05709a58ebd38f70c08dd2b6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Regions"
+        },
+        "10/declaration/body/4/argument/1/1/1/1/1": {
+          "type": "element",
+          "hash": "e238a25e05709a58ebd38f70c08dd2b6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Regions"
+        },
+        "10/declaration/body/4/argument/1/1/1/1/3": {
+          "type": "element",
+          "hash": "a96b61dcbff93972a3da74910715d042",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+2"
+        },
+        "10/declaration/body/4/argument/1/1/1/3/1": {
+          "type": "element",
+          "hash": "e2fc7ce389859028faabc845d3bc6980",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Ponds"
+        },
+        "10/declaration/body/4/argument/1/1/1/3/3": {
+          "type": "element",
+          "hash": "2ac29d1fbbf988ee4b44a40acf62324c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+20"
+        },
+        "10/declaration/body/4/argument/1/1/1/5/1": {
+          "type": "element",
+          "hash": "2ba1880d03b4543a84eb0b4a676af3e1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Sensors"
+        },
+        "10/declaration/body/4/argument/1/1/1/5/3": {
+          "type": "element",
+          "hash": "0358f51fcdfda120f28443c7f273d929",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+100"
+        },
+        "10/declaration/body/4/argument/1/1/3": {
+          "type": "element",
+          "hash": "a96b61dcbff93972a3da74910715d042",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+2"
+        },
+        "10/declaration/body/4/argument/1/1/3/1": {
+          "type": "element",
+          "hash": "30ad9162dc0b7163790cf77ce87ad3fe",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Oxygen Dissolve"
+        },
+        "10/declaration/body/4/argument/1/3/1": {
+          "type": "element",
+          "hash": "e2fc7ce389859028faabc845d3bc6980",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Ponds"
+        },
+        "10/declaration/body/4/argument/1/3/3": {
+          "type": "element",
+          "hash": "2ac29d1fbbf988ee4b44a40acf62324c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+20"
+        },
+        "10/declaration/body/4/argument/1/5/1": {
+          "type": "element",
+          "hash": "2ba1880d03b4543a84eb0b4a676af3e1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Sensors"
+        },
+        "10/declaration/body/4/argument/1/5/3": {
+          "type": "element",
+          "hash": "0358f51fcdfda120f28443c7f273d929",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+100"
+        },
+        "10/declaration/body/4/argument/13/openingElement/0/value/expression": {
+          "type": "element",
+          "hash": "7a27f2bb351fc1325db223d1b33df77d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Loading dashboard..."
+        },
+        "10/declaration/body/4/argument/3/1": {
+          "type": "element",
+          "hash": "30ad9162dc0b7163790cf77ce87ad3fe",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Oxygen Dissolve"
+        },
+        "10/declaration/body/4/argument/3/1/1/1": {
+          "type": "element",
+          "hash": "1e7f74a4a9404806ffabb29d5379a4d8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Alerts"
+        },
+        "10/declaration/body/4/argument/3/1/3/1": {
+          "type": "element",
+          "hash": "efde951ded884b7dbf0f81e45d93a8f9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Tasks"
+        },
+        "10/declaration/body/4/argument/5/1": {
+          "type": "element",
+          "hash": "1e7f74a4a9404806ffabb29d5379a4d8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Alerts"
+        },
+        "10/declaration/body/4/argument/7/1": {
+          "type": "element",
+          "hash": "efde951ded884b7dbf0f81e45d93a8f9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Tasks"
+        },
+        "11/declaration/body/4/argument/1/1/1/1/1": {
+          "type": "element",
+          "hash": "e238a25e05709a58ebd38f70c08dd2b6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Regions"
+        },
+        "11/declaration/body/4/argument/1/1/1/1/3": {
+          "type": "element",
+          "hash": "a96b61dcbff93972a3da74910715d042",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+2"
+        },
+        "11/declaration/body/4/argument/1/1/1/3/1": {
+          "type": "element",
+          "hash": "e2fc7ce389859028faabc845d3bc6980",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Ponds"
+        },
+        "11/declaration/body/4/argument/1/1/1/3/3": {
+          "type": "element",
+          "hash": "2ac29d1fbbf988ee4b44a40acf62324c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+20"
+        },
+        "11/declaration/body/4/argument/1/1/1/5/1": {
+          "type": "element",
+          "hash": "2ba1880d03b4543a84eb0b4a676af3e1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Sensors"
+        },
+        "11/declaration/body/4/argument/1/1/1/5/3": {
+          "type": "element",
+          "hash": "0358f51fcdfda120f28443c7f273d929",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+100"
+        },
+        "11/declaration/body/4/argument/1/1/3/1": {
+          "type": "element",
+          "hash": "30ad9162dc0b7163790cf77ce87ad3fe",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Oxygen Dissolve"
+        },
+        "11/declaration/body/4/argument/3/1/1/1": {
+          "type": "element",
+          "hash": "1e7f74a4a9404806ffabb29d5379a4d8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Alerts"
+        },
+        "11/declaration/body/4/argument/3/1/3/1": {
+          "type": "element",
+          "hash": "efde951ded884b7dbf0f81e45d93a8f9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Tasks"
+        },
         "3/declaration/body/0/argument/1/1/1/1": {
           "type": "element",
           "hash": "e238a25e05709a58ebd38f70c08dd2b6",
@@ -1002,6 +1226,318 @@
           "skip": false,
           "overrides": {},
           "content": "Tasks"
+        },
+        "7/declaration/body/4/argument/1/1/1": {
+          "type": "element",
+          "hash": "e238a25e05709a58ebd38f70c08dd2b6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Regions"
+        },
+        "7/declaration/body/4/argument/1/1/3": {
+          "type": "element",
+          "hash": "a96b61dcbff93972a3da74910715d042",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+2"
+        },
+        "7/declaration/body/4/argument/1/3/1": {
+          "type": "element",
+          "hash": "e2fc7ce389859028faabc845d3bc6980",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Ponds"
+        },
+        "7/declaration/body/4/argument/1/3/3": {
+          "type": "element",
+          "hash": "2ac29d1fbbf988ee4b44a40acf62324c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+20"
+        },
+        "7/declaration/body/4/argument/1/5/1": {
+          "type": "element",
+          "hash": "2ba1880d03b4543a84eb0b4a676af3e1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Sensors"
+        },
+        "7/declaration/body/4/argument/1/5/3": {
+          "type": "element",
+          "hash": "0358f51fcdfda120f28443c7f273d929",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+100"
+        },
+        "7/declaration/body/4/argument/13/openingElement/0/value/expression": {
+          "type": "element",
+          "hash": "7a27f2bb351fc1325db223d1b33df77d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Loading dashboard..."
+        },
+        "7/declaration/body/4/argument/3/1": {
+          "type": "element",
+          "hash": "30ad9162dc0b7163790cf77ce87ad3fe",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Oxygen Dissolve"
+        },
+        "7/declaration/body/4/argument/5/1": {
+          "type": "element",
+          "hash": "1e7f74a4a9404806ffabb29d5379a4d8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Alerts"
+        },
+        "7/declaration/body/4/argument/7/1": {
+          "type": "element",
+          "hash": "efde951ded884b7dbf0f81e45d93a8f9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Tasks"
+        },
+        "9/declaration/body/4/argument/1/1/1": {
+          "type": "element",
+          "hash": "e238a25e05709a58ebd38f70c08dd2b6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Regions"
+        },
+        "9/declaration/body/4/argument/1/1/1/1": {
+          "type": "element",
+          "hash": "e238a25e05709a58ebd38f70c08dd2b6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Regions"
+        },
+        "9/declaration/body/4/argument/1/1/1/1/1": {
+          "type": "element",
+          "hash": "e238a25e05709a58ebd38f70c08dd2b6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Regions"
+        },
+        "9/declaration/body/4/argument/1/1/1/1/3": {
+          "type": "element",
+          "hash": "a96b61dcbff93972a3da74910715d042",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+2"
+        },
+        "9/declaration/body/4/argument/1/1/1/3": {
+          "type": "element",
+          "hash": "a96b61dcbff93972a3da74910715d042",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+2"
+        },
+        "9/declaration/body/4/argument/1/1/1/3/1": {
+          "type": "element",
+          "hash": "e2fc7ce389859028faabc845d3bc6980",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Ponds"
+        },
+        "9/declaration/body/4/argument/1/1/1/3/3": {
+          "type": "element",
+          "hash": "2ac29d1fbbf988ee4b44a40acf62324c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+20"
+        },
+        "9/declaration/body/4/argument/1/1/1/5/1": {
+          "type": "element",
+          "hash": "2ba1880d03b4543a84eb0b4a676af3e1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Sensors"
+        },
+        "9/declaration/body/4/argument/1/1/1/5/3": {
+          "type": "element",
+          "hash": "0358f51fcdfda120f28443c7f273d929",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+100"
+        },
+        "9/declaration/body/4/argument/1/1/3": {
+          "type": "element",
+          "hash": "a96b61dcbff93972a3da74910715d042",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+2"
+        },
+        "9/declaration/body/4/argument/1/1/3/1": {
+          "type": "element",
+          "hash": "e2fc7ce389859028faabc845d3bc6980",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Ponds"
+        },
+        "9/declaration/body/4/argument/1/1/3/3": {
+          "type": "element",
+          "hash": "2ac29d1fbbf988ee4b44a40acf62324c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+20"
+        },
+        "9/declaration/body/4/argument/1/1/5/1": {
+          "type": "element",
+          "hash": "2ba1880d03b4543a84eb0b4a676af3e1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Sensors"
+        },
+        "9/declaration/body/4/argument/1/1/5/3": {
+          "type": "element",
+          "hash": "0358f51fcdfda120f28443c7f273d929",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+100"
+        },
+        "9/declaration/body/4/argument/1/3/1": {
+          "type": "element",
+          "hash": "e2fc7ce389859028faabc845d3bc6980",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Ponds"
+        },
+        "9/declaration/body/4/argument/1/3/3": {
+          "type": "element",
+          "hash": "2ac29d1fbbf988ee4b44a40acf62324c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+20"
+        },
+        "9/declaration/body/4/argument/1/5/1": {
+          "type": "element",
+          "hash": "2ba1880d03b4543a84eb0b4a676af3e1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Sensors"
+        },
+        "9/declaration/body/4/argument/1/5/3": {
+          "type": "element",
+          "hash": "0358f51fcdfda120f28443c7f273d929",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+100"
+        },
+        "9/declaration/body/4/argument/1/7/1": {
+          "type": "element",
+          "hash": "30ad9162dc0b7163790cf77ce87ad3fe",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Oxygen Dissolve"
+        },
+        "9/declaration/body/4/argument/13/openingElement/0/value/expression": {
+          "type": "element",
+          "hash": "7a27f2bb351fc1325db223d1b33df77d",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Loading dashboard..."
+        },
+        "9/declaration/body/4/argument/3/1": {
+          "type": "element",
+          "hash": "30ad9162dc0b7163790cf77ce87ad3fe",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Oxygen Dissolve"
+        },
+        "9/declaration/body/4/argument/3/1/1/1": {
+          "type": "element",
+          "hash": "1e7f74a4a9404806ffabb29d5379a4d8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Alerts"
+        },
+        "9/declaration/body/4/argument/3/1/3/1": {
+          "type": "element",
+          "hash": "efde951ded884b7dbf0f81e45d93a8f9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Tasks"
+        },
+        "9/declaration/body/4/argument/5/1": {
+          "type": "element",
+          "hash": "1e7f74a4a9404806ffabb29d5379a4d8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Alerts"
+        },
+        "9/declaration/body/4/argument/5/1/1": {
+          "type": "element",
+          "hash": "1e7f74a4a9404806ffabb29d5379a4d8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Alerts"
+        },
+        "9/declaration/body/4/argument/5/1/1/1": {
+          "type": "element",
+          "hash": "1e7f74a4a9404806ffabb29d5379a4d8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Alerts"
+        },
+        "9/declaration/body/4/argument/5/1/3/1": {
+          "type": "element",
+          "hash": "efde951ded884b7dbf0f81e45d93a8f9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Tasks"
+        },
+        "9/declaration/body/4/argument/5/3/1": {
+          "type": "element",
+          "hash": "efde951ded884b7dbf0f81e45d93a8f9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Tasks"
+        },
+        "9/declaration/body/4/argument/7/1": {
+          "type": "element",
+          "hash": "efde951ded884b7dbf0f81e45d93a8f9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Tasks"
         }
       }
     },
@@ -1158,6 +1694,102 @@
           "skip": false,
           "overrides": {},
           "content": "Globe icon"
+        },
+        "3/declaration/body/0/argument/1/1-alt": {
+          "type": "attribute",
+          "hash": "d466a5d83229413a6a5a6733490b8e92",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Next.js logo"
+        },
+        "3/declaration/body/0/argument/1/3/1": {
+          "type": "element",
+          "hash": "4b6f703a91c1da3ea27d7cd4f81eed00",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Get started by editing <element:code>app/page.tsx</element:code> ."
+        },
+        "3/declaration/body/0/argument/1/3/3": {
+          "type": "element",
+          "hash": "4f2bd22c0a2ce4d85d3cf3c758371d07",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Save and see your changes instantly."
+        },
+        "3/declaration/body/0/argument/1/5/1": {
+          "type": "element",
+          "hash": "1e7142eabfb50a998a0625bc66592354",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Image></element:Image> Deploy now"
+        },
+        "3/declaration/body/0/argument/1/5/1/1-alt": {
+          "type": "attribute",
+          "hash": "f9c3b0f527a8caeed7a3a1ac7f4a3ab5",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Vercel logomark"
+        },
+        "3/declaration/body/0/argument/1/5/3": {
+          "type": "element",
+          "hash": "c788845ca96b9a02da85f5ba5cc2ec1b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Read our docs"
+        },
+        "3/declaration/body/0/argument/3/1": {
+          "type": "element",
+          "hash": "311d29f18ede3976330e70a65c7f9174",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Image></element:Image> Learn"
+        },
+        "3/declaration/body/0/argument/3/1/1-alt": {
+          "type": "attribute",
+          "hash": "c9fdbf0f3d05590518cd8cfe360a1435",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "File icon"
+        },
+        "3/declaration/body/0/argument/3/3": {
+          "type": "element",
+          "hash": "d69424beb631df7de9f7f6b7619d553f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Image></element:Image> Examples"
+        },
+        "3/declaration/body/0/argument/3/3/1-alt": {
+          "type": "attribute",
+          "hash": "30a1005a1635872a103f100d02d7c9b2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Window icon"
+        },
+        "3/declaration/body/0/argument/3/5": {
+          "type": "element",
+          "hash": "50b10af3ab7eeef1912183a228dd59bf",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Image></element:Image> Go to nextjs.org →"
+        },
+        "3/declaration/body/0/argument/3/5/1-alt": {
+          "type": "attribute",
+          "hash": "4467320f63442e7e0729ad6d55b4a8b1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Globe icon"
         }
       }
     },
@@ -1170,6 +1802,46 @@
           "skip": true,
           "overrides": {},
           "content": "Lingo.dev Compiler"
+        }
+      }
+    },
+    "components/RealtimePonds.tsx": {
+      "scopes": {
+        "3/0/init/body/4/argument/1": {
+          "type": "element",
+          "hash": "e2fc7ce389859028faabc845d3bc6980",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Ponds"
+        }
+      }
+    },
+    "components/Realtimetips.tsx": {
+      "scopes": {
+        "3/0/init/body/4/argument/1": {
+          "type": "element",
+          "hash": "6a6a2a88b52c2f1d8deb9137d9379a52",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Latest Tasks"
+        },
+        "3/0/init/body/4/argument/3/expression/alternate/alternate/1/expression/0/body/1/1/3": {
+          "type": "element",
+          "hash": "0db98b6e153b6bbf5df2084ed1c9ec44",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Pond: <expression/>"
+        },
+        "3/0/init/body/4/argument/3/expression/alternate/consequent": {
+          "type": "element",
+          "hash": "e34a4ceabd6dde54352320a5e56c349f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "No tasks"
         }
       }
     },
@@ -1306,6 +1978,18 @@
           "skip": false,
           "overrides": {},
           "content": "<element:LogOut></element:LogOut> Log out"
+        }
+      }
+    },
+    "components/pages/Dashboard.tsx": {
+      "scopes": {
+        "4/0/init/body/0/argument/1/1": {
+          "type": "element",
+          "hash": "c9380ea68c8c76ea451bd9613329a07c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Dashboard"
         }
       }
     },
@@ -1462,6 +2146,34 @@
           "skip": false,
           "overrides": {},
           "content": "Pond {alert.pondId}"
+        }
+      }
+    },
+    "components/ui/alerts/RealtimeAlerts.tsx": {
+      "scopes": {
+        "3/0/init/body/5/argument/1": {
+          "type": "element",
+          "hash": "08fc7705efc0dbb934dd7cefd71e08d8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Latest Alerts"
+        },
+        "3/0/init/body/5/argument/3/expression/alternate/alternate/1/expression/0/body/1/1/3": {
+          "type": "element",
+          "hash": "0db98b6e153b6bbf5df2084ed1c9ec44",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Pond: <expression/>"
+        },
+        "3/0/init/body/5/argument/3/expression/alternate/consequent": {
+          "type": "element",
+          "hash": "00f321d18a97905a5a2b1fba98b0d16c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "No alerts"
         }
       }
     },
