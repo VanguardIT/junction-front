@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { poppins } from "@/lib/font";
 import "./globals.css";
 import { LingoProvider, loadDictionary } from "lingo.dev/react/rsc";
-import AppLocaleSwitcher from "@/components/LanguageSwitcher";
 
 export const metadata: Metadata = {
   title: "Create Next App",
