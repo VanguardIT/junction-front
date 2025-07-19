@@ -1,4 +1,4 @@
-import { Home, BarChart3 } from "lucide-react";
+import { Home, BarChart3, AlertTriangle, FileText } from "lucide-react";
 
 export const navItems = [
   {
@@ -11,6 +11,18 @@ export const navItems = [
     title: "Ponds Management",
     url: "/dashboard/ponds",
     icon: BarChart3,
+    isActive: false,
+  },
+  {
+    title: "Alerts",
+    url: "/dashboard/alerts",
+    icon: AlertTriangle,
+    isActive: false,
+  },
+  {
+    title: "Reports",
+    url: "/dashboard/reports",
+    icon: FileText,
     isActive: false,
   },
 ];

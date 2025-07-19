@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "next/navigation";
 import Table from "@/components/ui/Table";
 import Badge from "@/components/ui/Badge";
@@ -9,32 +9,8 @@ import { Card } from "@/components/ui/shadcn/card";
 import { Pencil, Trash2 } from "lucide-react";
 import ChartArea from "@/components/ui/charts/chart-area";
 import EditPondDialog from "@/components/ui/modals/EditPondDialog";
-import { Pond, EditPondData } from "@/types/Pond";
-
-const pond: Pond = {
-  id: "1",
-  name: "Pond 1",
-  region: "5",
-  status: "Normal",
-  health: "Good",
-  fishType: "Tilapia",
-  volume: 800,
-  lastAlert: "None",
-  productionCycle: {
-    startDate: new Date("2024-01-01"),
-    endDate: new Date("2024-06-30"),
-  },
-  assignedSensors: [
-    "Ph Sensor",
-    "Temperature Sensor",
-    "Dissolved Oxygen Sensor",
-  ],
-  thresholds: {
-    dissolvedOxygen: { min: 4, max: 8 },
-    temperature: { min: 20, max: 30 },
-    ph: { min: 6.5, max: 8.5 },
-  },
-};
+import { Pond, EditPondData, Alert, SensorReading } from "@/types/Api";
+import { apiClient } from "@/lib/api";
 
 const statusColor = (status: string) =>
   status === "Normal"
@@ -56,7 +32,7 @@ const healthColor = (health: string) =>
 
 const pondColumns = [
   { key: "id", header: "Pond" },
-  { key: "region", header: "Region" },
+  { key: "region_id", header: "Region" },
   {
     key: "status",
     header: "Status",
@@ -75,13 +51,13 @@ const pondColumns = [
   },
   { key: "fishType", header: "Fish Type" },
   {
-    key: "volume",
+    key: "capacity",
     header: (
       <>
         Volume <span className="font-normal">(m³)</span>
       </>
     ),
-    render: (row: any) => `${row.volume} (m³)`,
+    render: (row: any) => `${row.capacity} (m³)`,
   },
   { key: "lastAlert", header: "Last Alert" },
   {
@@ -95,106 +71,94 @@ const pondColumns = [
   },
 ];
 
-const sensorCharts = [
-  {
-    label: "Ph",
-    color: "#a5b4fc",
-    data: [
-      {
-        date: "2021-01-01",
-        value: 10,
-      },
-    ],
-  },
-  {
-    label: "Oxygen",
-    color: "#a5d8fa",
-    data: [
-      {
-        date: "2021-01-01",
-        value: 10,
-      },
-    ],
-  },
-];
-
-const alerts = [
-  {
-    date: "Jul 17",
-    type: "Low DO",
-    value: "3.5 mg/L",
-    status: "Active",
-    explanation: '"Temp high + feeding"',
-    suggestion: '"Increase aeration"',
-  },
-  {
-    date: "Jul 17",
-    type: "Low DO",
-    value: "3.5 mg/L",
-    status: "Active",
-    explanation: '"Temp high + feeding"',
-    suggestion: '"Increase aeration"',
-  },
-  {
-    date: "Jul 17",
-    type: "Low DO",
-    value: "3.5 mg/L",
-    status: "Active",
-    explanation: '"Temp high + feeding"',
-    suggestion: '"Increase aeration"',
-  },
-  {
-    date: "Jul 17",
-    type: "Low DO",
-    value: "3.5 mg/L",
-    status: "Active",
-    explanation: '"Temp high + feeding"',
-    suggestion: '"Increase aeration"',
-  },
-];
-
 const alertColumns = [
-  { key: "date", header: "Date" },
+  {
+    key: "created_at",
+    header: "Date",
+    render: (row: Alert) => new Date(row.created_at).toLocaleDateString(),
+  },
   { key: "type", header: "Type" },
   { key: "value", header: "Value" },
   {
     key: "status",
     header: "Status",
-    render: (row: any) => <Badge color="green" label={row.status} />,
+    render: (row: Alert) => <Badge color="green" label={row.status} />,
   },
   { key: "explanation", header: "Explanation" },
   { key: "suggestion", header: "Suggestion" },
 ];
 
 export default function PondDetailsPage() {
+  const params = useParams();
+  const pondId = params?.pondid as string;
+  const [pond, setPond] = useState<Pond | null>(null);
+  const [alerts, setAlerts] = useState<Alert[]>([]);
+  const [sensorCharts, setSensorCharts] = useState<any[]>([]);
   const [editDialogOpen, setEditDialogOpen] = useState(false);
-  const [currentPond, setCurrentPond] = useState<Pond>(pond);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        setLoading(true);
+        const [pondRes, alertsRes, sensorReadingsRes] = await Promise.all([
+          apiClient.getPond(pondId),
+          apiClient.getAlerts(),
+          apiClient.getSensorReadings(),
+        ]);
+        setPond(pondRes);
+        setAlerts(
+          Array.isArray(alertsRes)
+            ? alertsRes.filter((a) => a.pond_id === pondId)
+            : []
+        );
+        // Example: group sensor readings by type for charting
+        const grouped = {} as Record<string, SensorReading[]>;
+        (Array.isArray(sensorReadingsRes) ? sensorReadingsRes : []).forEach(
+          (r) => {
+            if (!grouped[r.unit]) grouped[r.unit] = [];
+            grouped[r.unit].push(r);
+          }
+        );
+        setSensorCharts(
+          Object.entries(grouped).map(([label, data]) => ({
+            label,
+            color: "#a5b4fc",
+            data,
+          }))
+        );
+      } catch (err) {
+        setError("Failed to load pond details");
+      } finally {
+        setLoading(false);
+      }
+    };
+    if (pondId) fetchData();
+  }, [pondId]);
 
   const handleSavePond = (data: EditPondData) => {
     // Update the pond data with the new values
+    if (!pond) return;
     const updatedPond: Pond = {
-      ...currentPond,
-      name: data.name,
-      region: data.region,
-      fishType: data.fishType,
-      volume: data.volume,
-      productionCycle: data.productionCycle,
-      assignedSensors: data.assignedSensors,
-      thresholds: {
-        dissolvedOxygen: data.dissolvedOxygen,
-        temperature: data.temperature,
-        ph: data.ph,
-      },
+      ...pond,
+      ...data,
     };
-
-    setCurrentPond(updatedPond);
-    console.log("Pond updated:", updatedPond);
+    setPond(updatedPond);
     // Here you would typically make an API call to save the data
   };
 
-  // const params = useParams();
-  // const pondId = params?.pondid;
-  // Fetch pond by pondId if needed
+  if (loading) {
+    return (
+      <div className="flex items-center justify-center h-32">Loading...</div>
+    );
+  }
+  if (error || !pond) {
+    return (
+      <div className="text-red-600 font-bold">{error || "Pond not found"}</div>
+    );
+  }
+
   return (
     <div className="p-4 flex flex-col gap-4">
       <div className="flex items-center justify-between">
@@ -207,11 +171,7 @@ export default function PondDetailsPage() {
           <Button variant="destructive">Generate Report</Button>
         </div>
       </div>
-      <Table
-        columns={pondColumns}
-        data={[currentPond]}
-        rowKey={(row) => row.id}
-      />
+      <Table columns={pondColumns} data={[pond]} rowKey={(row) => row.id} />
       <Card className="p-4 flex flex-col gap-2">
         <div className="text-lg font-semibold mb-2">sensor data over time</div>
         <div className="flex gap-4">
@@ -221,7 +181,6 @@ export default function PondDetailsPage() {
               className="flex-1 p-2 flex flex-col items-center justify-center min-h-[120px]"
             >
               <div className="font-medium mb-1">{chart.label}</div>
-
               <ChartArea data={chart.data} areaColor={chart.color} />
             </Card>
           ))}
@@ -233,11 +192,10 @@ export default function PondDetailsPage() {
         </div>
         <Table columns={alertColumns} data={alerts} rowKey={(_, i) => i} />
       </Card>
-
       <EditPondDialog
         open={editDialogOpen}
         onOpenChange={setEditDialogOpen}
-        pond={currentPond}
+        pond={pond}
         onSave={handleSavePond}
       />
     </div>

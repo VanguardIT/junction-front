@@ -1,44 +1,14 @@
-import React from "react";
 import Table from "@/components/ui/Table";
 import Badge from "@/components/ui/Badge";
 import { TableColumn } from "@/types/Table";
 import { Dialog, DialogTrigger } from "@/components/ui/shadcn/dialog";
 import PondAdd from "@/components/ui/modals/PondAdd";
 import Link from "next/link";
+import { apiClient } from "@/lib/api";
+import { Pond } from "@/types/Api";
 
 const fishTypes = ["Tilapia", "Catfish", "Carp", "Bass"];
 const sensors = ["Ph Sensor", "Sensor nitrate"];
-
-const ponds = [
-  {
-    pond: 1,
-    region: 5,
-    status: "Normal",
-    health: "Good",
-    fishType: "Tilapia",
-    volume: 800,
-    lastAlert: "None",
-  },
-  {
-    pond: 1,
-    region: 5,
-    status: "Warning",
-    health: "Medium",
-    fishType: "Tilapia",
-    volume: 800,
-    lastAlert: "Low DO",
-  },
-  {
-    pond: 1,
-    region: 5,
-    status: "Critical",
-    health: "Poor",
-    fishType: "Tilapia",
-    volume: 800,
-    lastAlert: "High turbidity",
-  },
-  // ...repeat or add more mock data as needed
-];
 
 const statusColor = (status: string) =>
   status === "Normal"
@@ -58,9 +28,9 @@ const healthColor = (health: string) =>
         ? "red"
         : "gray";
 
-const columns: TableColumn<(typeof ponds)[0]>[] = [
-  { key: "pond", header: "Pond" },
-  { key: "region", header: "Region" },
+const columns: TableColumn<Pond>[] = [
+  { key: "name", header: "Pond" },
+  { key: "region_id", header: "Region" },
   {
     key: "status",
     header: "Status",
@@ -74,18 +44,21 @@ const columns: TableColumn<(typeof ponds)[0]>[] = [
     key: "health",
     header: "Health",
     render: (row) => (
-      <Badge color={healthColor(row.health)} label={row.health} />
+      <Badge
+        color={healthColor(row.health || "Good")}
+        label={row.health || "Good"}
+      />
     ),
   },
   { key: "fishType", header: "Fish Type" },
   {
-    key: "volume",
+    key: "capacity",
     header: (
       <>
-        Volume <span className="font-normal">(m³)</span>
+        Volume <span className="font-normal">(m 3)</span>
       </>
     ),
-    render: (row) => `${row.volume}`,
+    render: (row) => `${row.capacity}`,
   },
   { key: "lastAlert", header: "Last Alert" },
   {
@@ -93,7 +66,7 @@ const columns: TableColumn<(typeof ponds)[0]>[] = [
     header: "More",
     render: (row) => (
       <Link
-        href={`/dashboard/ponds/${row.pond}`}
+        href={`/dashboard/ponds/${row.id}`}
         className="text-blue-600 underline"
       >
         See more
@@ -102,7 +75,19 @@ const columns: TableColumn<(typeof ponds)[0]>[] = [
   },
 ];
 
-export default function PondsPage() {
+export default async function PondsPage() {
+  let ponds: Pond[] = [];
+  let error: string | null = null;
+  try {
+    const response = await apiClient.getPonds();
+    ponds = Array.isArray(response) ? response : [];
+  } catch (err) {
+    error = "Failed to load ponds";
+  }
+
+  if (error) {
+    return <div className="text-red-600 font-bold">{error}</div>;
+  }
   return (
     <div className="p-4">
       <div className="flex items-center justify-between mb-2">
@@ -114,7 +99,7 @@ export default function PondsPage() {
           <PondAdd fishTypes={fishTypes} sensors={sensors} />
         </Dialog>
       </div>
-      <Table columns={columns} data={ponds} rowKey={(_, i) => i} />
+      <Table columns={columns} data={ponds} rowKey={(row) => row.id} />
     </div>
   );
 }

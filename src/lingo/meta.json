@@ -1,6 +1,234 @@
 {
   "version": 0.1,
   "files": {
+    "app/dashboard/alerts/page.tsx": {
+      "scopes": {
+        "11/declaration/body/14/0/init/7/2/value/body": {
+          "type": "element",
+          "hash": "6ad3d25fbea2e4b993319aaf9372884b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "View"
+        },
+        "11/declaration/body/15/argument/11/1/1": {
+          "type": "element",
+          "hash": "1e7f74a4a9404806ffabb29d5379a4d8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Alerts"
+        },
+        "11/declaration/body/15/argument/3/1/1": {
+          "type": "element",
+          "hash": "1e7f74a4a9404806ffabb29d5379a4d8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Alerts"
+        },
+        "11/declaration/body/15/argument/3/1/3": {
+          "type": "element",
+          "hash": "1e7f74a4a9404806ffabb29d5379a4d8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Alerts"
+        },
+        "11/declaration/body/15/argument/7/1/1/1": {
+          "type": "element",
+          "hash": "46c7f205321a955a96380bb0c946ad2a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Plus></element:Plus> Add Pond"
+        },
+        "11/declaration/body/15/argument/7/1/1/1/1/1/1-placeholder": {
+          "type": "attribute",
+          "hash": "9b3aa5954144de586931f60ef9594e99",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Date Range"
+        },
+        "11/declaration/body/15/argument/7/1/1/1/1/3/1": {
+          "type": "element",
+          "hash": "142173f9752e18e92109623a3ee68cad",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Today"
+        },
+        "11/declaration/body/15/argument/7/1/1/1/1/3/3": {
+          "type": "element",
+          "hash": "758940d8731075a26bbed941d64712dd",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "This Week"
+        },
+        "11/declaration/body/15/argument/7/1/1/1/1/3/5": {
+          "type": "element",
+          "hash": "374d33583fae2a69b56e100562c7b973",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "This Month"
+        },
+        "11/declaration/body/15/argument/7/1/1/1/1/3/7": {
+          "type": "element",
+          "hash": "99f4d72b64621406acc162cceeb1fed7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Custom Range"
+        },
+        "11/declaration/body/15/argument/7/1/1/3/1/1/1-placeholder": {
+          "type": "attribute",
+          "hash": "1327c118e47163c40caff0987cdefb55",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Alert type"
+        },
+        "11/declaration/body/15/argument/7/1/1/3/1/3/1": {
+          "type": "element",
+          "hash": "75bf15906985ffec19d1bb62f7083b95",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Low DO"
+        },
+        "11/declaration/body/15/argument/7/1/1/3/1/3/3": {
+          "type": "element",
+          "hash": "4f975c371d19f865708cef5df7a8618a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "High Temp"
+        },
+        "11/declaration/body/15/argument/7/1/1/3/1/3/5": {
+          "type": "element",
+          "hash": "115745a7fd3cbc062f2433ddec52c05c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Low pH"
+        },
+        "11/declaration/body/15/argument/7/1/1/3/1/3/7": {
+          "type": "element",
+          "hash": "26730f41847b22e8cb4bb9dcd77feb67",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "High Ammonia"
+        },
+        "11/declaration/body/15/argument/7/1/1/3/1/3/9": {
+          "type": "element",
+          "hash": "906c0d96525b2afffba4b7501e6b27a6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Turbidity"
+        },
+        "11/declaration/body/15/argument/7/1/1/5/1/1/1-placeholder": {
+          "type": "attribute",
+          "hash": "4e1fcce15854d824919b4a582c697c90",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Status"
+        },
+        "11/declaration/body/15/argument/7/1/1/5/1/3/1": {
+          "type": "element",
+          "hash": "3e1ec025c4a50830bbb9ad57a176630a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Active"
+        },
+        "11/declaration/body/15/argument/7/1/1/5/1/3/3": {
+          "type": "element",
+          "hash": "a1de202e0c3b352731a33bea1897bdb8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Resolved"
+        },
+        "11/declaration/body/15/argument/7/1/1/5/1/3/5": {
+          "type": "element",
+          "hash": "7f15a0f965a3134b9c703f8687c872ee",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Acknowledged"
+        },
+        "11/declaration/body/15/argument/7/1/1/5/1/3/7": {
+          "type": "element",
+          "hash": "26730f41847b22e8cb4bb9dcd77feb67",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "High Ammonia"
+        },
+        "11/declaration/body/15/argument/7/1/1/5/1/3/9": {
+          "type": "element",
+          "hash": "906c0d96525b2afffba4b7501e6b27a6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Turbidity"
+        },
+        "11/declaration/body/15/argument/7/1/1/7": {
+          "type": "element",
+          "hash": "bd728435f3e1d09c1e6a0034820a3d5a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Search></element:Search> Search"
+        },
+        "11/declaration/body/15/argument/7/1/1/7/1/1/1-placeholder": {
+          "type": "attribute",
+          "hash": "4e1fcce15854d824919b4a582c697c90",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Status"
+        },
+        "11/declaration/body/15/argument/7/1/1/7/1/3/1": {
+          "type": "element",
+          "hash": "3e1ec025c4a50830bbb9ad57a176630a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Active"
+        },
+        "11/declaration/body/15/argument/7/1/1/7/1/3/3": {
+          "type": "element",
+          "hash": "a1de202e0c3b352731a33bea1897bdb8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Resolved"
+        },
+        "11/declaration/body/15/argument/7/1/1/7/1/3/5": {
+          "type": "element",
+          "hash": "7f15a0f965a3134b9c703f8687c872ee",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Acknowledged"
+        },
+        "11/declaration/body/15/argument/7/1/1/9": {
+          "type": "element",
+          "hash": "bd728435f3e1d09c1e6a0034820a3d5a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Search></element:Search> Search"
+        }
+      }
+    },
     "app/dashboard/layout.tsx": {
       "scopes": {
         "4/declaration/body/0/argument/3/1/5/1/1/1": {
@@ -166,6 +394,158 @@
           "skip": false,
           "overrides": {},
           "content": "Tasks"
+        },
+        "7/declaration/body/5/argument/1/1/1": {
+          "type": "element",
+          "hash": "e238a25e05709a58ebd38f70c08dd2b6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Regions"
+        },
+        "7/declaration/body/5/argument/1/1/3": {
+          "type": "element",
+          "hash": "2286b28fa37112af76d6f5952c4b928e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+<expression/>"
+        },
+        "7/declaration/body/5/argument/1/3/1": {
+          "type": "element",
+          "hash": "e2fc7ce389859028faabc845d3bc6980",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Ponds"
+        },
+        "7/declaration/body/5/argument/1/3/3": {
+          "type": "element",
+          "hash": "2286b28fa37112af76d6f5952c4b928e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+<expression/>"
+        },
+        "7/declaration/body/5/argument/1/5/1": {
+          "type": "element",
+          "hash": "2ba1880d03b4543a84eb0b4a676af3e1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Sensors"
+        },
+        "7/declaration/body/5/argument/1/5/3": {
+          "type": "element",
+          "hash": "2286b28fa37112af76d6f5952c4b928e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+<expression/>"
+        },
+        "7/declaration/body/5/argument/3/1": {
+          "type": "element",
+          "hash": "30ad9162dc0b7163790cf77ce87ad3fe",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Oxygen Dissolve"
+        },
+        "7/declaration/body/5/argument/5/1": {
+          "type": "element",
+          "hash": "1e7f74a4a9404806ffabb29d5379a4d8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Alerts"
+        },
+        "7/declaration/body/5/argument/7/1": {
+          "type": "element",
+          "hash": "efde951ded884b7dbf0f81e45d93a8f9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Tasks"
+        },
+        "7/declaration/body/5/consequent/0/argument": {
+          "type": "element",
+          "hash": "1361398fae591b48b1544729cd663850",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Failed to load dashboard data."
+        },
+        "7/declaration/body/6/argument/1/1/1": {
+          "type": "element",
+          "hash": "e238a25e05709a58ebd38f70c08dd2b6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Regions"
+        },
+        "7/declaration/body/6/argument/1/1/3": {
+          "type": "element",
+          "hash": "2286b28fa37112af76d6f5952c4b928e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+<expression/>"
+        },
+        "7/declaration/body/6/argument/1/3/1": {
+          "type": "element",
+          "hash": "e2fc7ce389859028faabc845d3bc6980",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Ponds"
+        },
+        "7/declaration/body/6/argument/1/3/3": {
+          "type": "element",
+          "hash": "2286b28fa37112af76d6f5952c4b928e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+<expression/>"
+        },
+        "7/declaration/body/6/argument/1/5/1": {
+          "type": "element",
+          "hash": "2ba1880d03b4543a84eb0b4a676af3e1",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Sensors"
+        },
+        "7/declaration/body/6/argument/1/5/3": {
+          "type": "element",
+          "hash": "2286b28fa37112af76d6f5952c4b928e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+<expression/>"
+        },
+        "7/declaration/body/6/argument/3/1": {
+          "type": "element",
+          "hash": "30ad9162dc0b7163790cf77ce87ad3fe",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Oxygen Dissolve"
+        },
+        "7/declaration/body/6/argument/5/1": {
+          "type": "element",
+          "hash": "1e7f74a4a9404806ffabb29d5379a4d8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Alerts"
+        },
+        "7/declaration/body/6/argument/7/1": {
+          "type": "element",
+          "hash": "efde951ded884b7dbf0f81e45d93a8f9",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Tasks"
         }
       }
     },
@@ -180,6 +560,22 @@
           "content": "Volume <element:span>(m³)</element:span>"
         },
         "12/0/init/7/2/value/body": {
+          "type": "element",
+          "hash": "a7ccbbefb6e57f19be5e9eff5580da66",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "See more"
+        },
+        "13/0/init/5/1/value": {
+          "type": "element",
+          "hash": "3c51e05905e48839f35099a7bcab1730",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Volume <element:span>(m 3)</element:span>"
+        },
+        "13/0/init/7/2/value/body": {
           "type": "element",
           "hash": "a7ccbbefb6e57f19be5e9eff5580da66",
           "context": "",
@@ -202,6 +598,226 @@
           "skip": false,
           "overrides": {},
           "content": "+ Add"
+        },
+        "14/declaration/body/4/argument/1/1": {
+          "type": "element",
+          "hash": "e2fc7ce389859028faabc845d3bc6980",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Ponds"
+        },
+        "14/declaration/body/4/argument/1/3/1": {
+          "type": "element",
+          "hash": "3a294e1b24c0b050996ef74600dbe53e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+ Add"
+        },
+        "14/declaration/body/4/consequent/0/argument": {
+          "type": "element",
+          "hash": "82b4ea7ed1439094d7c4be13aaba9a66",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Loading..."
+        },
+        "14/declaration/body/6/argument/1/1": {
+          "type": "element",
+          "hash": "e2fc7ce389859028faabc845d3bc6980",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Ponds"
+        },
+        "14/declaration/body/6/argument/1/3/1": {
+          "type": "element",
+          "hash": "3a294e1b24c0b050996ef74600dbe53e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "+ Add"
+        }
+      }
+    },
+    "app/dashboard/reports/page.tsx": {
+      "scopes": {
+        "9/declaration/body/12/0/init/5/2/value/body/1": {
+          "type": "element",
+          "hash": "7589799852b4f2425cf7eb6c1411629c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Download></element:Download> Download"
+        },
+        "9/declaration/body/13/argument/11/1/1": {
+          "type": "element",
+          "hash": "395851ddda8b5e29895ebee43ff03fd2",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Generated Reports"
+        },
+        "9/declaration/body/13/argument/3/1/1": {
+          "type": "element",
+          "hash": "4cf01f6c35f0225dcb0f9ebebae62b1c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Reports & Exports"
+        },
+        "9/declaration/body/13/argument/3/1/3": {
+          "type": "element",
+          "hash": "8c7fd0959600194f534100da05238961",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Reports & Exports"
+        },
+        "9/declaration/body/13/argument/7/1/1/1/1-placeholder": {
+          "type": "attribute",
+          "hash": "c85afd3582f8b2dbca96f46f1a4d15e6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Find Report"
+        },
+        "9/declaration/body/13/argument/7/1/1/11": {
+          "type": "element",
+          "hash": "dffef46d1722002e067390cbe6d06fed",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Generate Report"
+        },
+        "9/declaration/body/13/argument/7/1/1/3": {
+          "type": "element",
+          "hash": "bd728435f3e1d09c1e6a0034820a3d5a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<element:Search></element:Search> Search"
+        },
+        "9/declaration/body/13/argument/7/1/1/5/1/1/1-placeholder": {
+          "type": "attribute",
+          "hash": "9b3aa5954144de586931f60ef9594e99",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Date Range"
+        },
+        "9/declaration/body/13/argument/7/1/1/5/1/3/1": {
+          "type": "element",
+          "hash": "142173f9752e18e92109623a3ee68cad",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Today"
+        },
+        "9/declaration/body/13/argument/7/1/1/5/1/3/3": {
+          "type": "element",
+          "hash": "758940d8731075a26bbed941d64712dd",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "This Week"
+        },
+        "9/declaration/body/13/argument/7/1/1/5/1/3/5": {
+          "type": "element",
+          "hash": "374d33583fae2a69b56e100562c7b973",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "This Month"
+        },
+        "9/declaration/body/13/argument/7/1/1/5/1/3/7": {
+          "type": "element",
+          "hash": "99f4d72b64621406acc162cceeb1fed7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Custom Range"
+        },
+        "9/declaration/body/13/argument/7/1/1/7/1/1/1-placeholder": {
+          "type": "attribute",
+          "hash": "3486496c626a75fc97583add47c1f47f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "All Ponds"
+        },
+        "9/declaration/body/13/argument/7/1/1/7/1/3/1": {
+          "type": "element",
+          "hash": "3486496c626a75fc97583add47c1f47f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "All Ponds"
+        },
+        "9/declaration/body/13/argument/7/1/1/7/1/3/3": {
+          "type": "element",
+          "hash": "547c74ba8fbad815fb6afdea293917d0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Pond 1"
+        },
+        "9/declaration/body/13/argument/7/1/1/7/1/3/5": {
+          "type": "element",
+          "hash": "b01f6b1fe9dc907b6138fbde3afc17e8",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Pond 2"
+        },
+        "9/declaration/body/13/argument/7/1/1/7/1/3/7": {
+          "type": "element",
+          "hash": "666395117d63d9c0483953871ba62b8e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Pond 3"
+        },
+        "9/declaration/body/13/argument/7/1/1/9/1/1/1-placeholder": {
+          "type": "attribute",
+          "hash": "1522afe6bef3e2974c691845668ca223",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Report Type"
+        },
+        "9/declaration/body/13/argument/7/1/1/9/1/3/1": {
+          "type": "element",
+          "hash": "1d2e0461efbc620abce1b898dbd5503a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Pond Report"
+        },
+        "9/declaration/body/13/argument/7/1/1/9/1/3/3": {
+          "type": "element",
+          "hash": "edfe5c00b7da89ed4fd7bb944a8361c7",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Sensor Report"
+        },
+        "9/declaration/body/13/argument/7/1/1/9/1/3/5": {
+          "type": "element",
+          "hash": "ccef5b1877526ffb123417a5ea6f5746",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Alert Report"
+        },
+        "9/declaration/body/13/argument/7/1/1/9/1/3/7": {
+          "type": "element",
+          "hash": "5586f69a63901ea7fa62c28872de4293",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Performance Report"
         }
       }
     },
@@ -374,6 +990,98 @@
           "skip": false,
           "overrides": {},
           "content": "Pond {alert.pondId}"
+        }
+      }
+    },
+    "components/ui/modals/AlertDetailsModal.tsx": {
+      "scopes": {
+        "10/declaration/body/6/argument/1/1/1/1-label": {
+          "type": "attribute",
+          "hash": "fbfb542f6ba91024683010bb76814871",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Alert"
+        },
+        "10/declaration/body/6/argument/1/1/3": {
+          "type": "element",
+          "hash": "258880320a952f3cfe0c8b57386a58ee",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "<expression/> region <expression/>"
+        },
+        "10/declaration/body/6/argument/1/3/11/1/3": {
+          "type": "element",
+          "hash": "036a220f4761e493d08af632d4ef72c0",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "TECHNICIAN NOTES"
+        },
+        "10/declaration/body/6/argument/1/3/11/3-placeholder": {
+          "type": "attribute",
+          "hash": "d3ac254485c3fec1d1ea7ed55fb8270f",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Type your message here"
+        },
+        "10/declaration/body/6/argument/1/3/11/5": {
+          "type": "element",
+          "hash": "70441758abcd646efc98142101516f0a",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Your message will be added to the support team."
+        },
+        "10/declaration/body/6/argument/1/3/3/1/1": {
+          "type": "element",
+          "hash": "831db95ff79c9be27c676c8f357e54ae",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Dissolved Oxygen"
+        },
+        "10/declaration/body/6/argument/1/3/3/1/3/3/1": {
+          "type": "element",
+          "hash": "5574eee83ead295147d3a9ae2e62bb8c",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Daily"
+        },
+        "10/declaration/body/6/argument/1/3/3/1/3/3/3": {
+          "type": "element",
+          "hash": "9e687411dbf1248496a4ae5dd5391679",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Weekly"
+        },
+        "10/declaration/body/6/argument/1/3/3/1/3/3/5": {
+          "type": "element",
+          "hash": "818f1192e32bb855597f930d3e78806e",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Monthly"
+        },
+        "10/declaration/body/6/argument/1/3/7/1/1": {
+          "type": "element",
+          "hash": "d881b45e6d67b0cc90468418e1b2e9c6",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Cause:"
+        },
+        "10/declaration/body/6/argument/1/3/7/3/1": {
+          "type": "element",
+          "hash": "b7336c802bf93378d2bc86103490e00b",
+          "context": "",
+          "skip": false,
+          "overrides": {},
+          "content": "Suggested Fix:"
         }
       }
     },
